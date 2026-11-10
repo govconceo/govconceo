@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions — GovConCEO</title>
+    <meta name="description" content="What DFARS 252.204-7012 requires when a cyber incident hits covered defense information: review, report to DIBNet within 72 hours, submit malware to DC3, preserve images for 90 days, and pass the report number up the chain. Not legal advice.">
+    <meta name="author" content="GovConCEO">
+    <meta property="og:site_name" content="GovConCEO">
+    <meta property="og:title" content="DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions">
+    <meta property="og:description" content="What DFARS 252.204-7012 requires when a cyber incident hits covered defense information: review, report to DIBNet within 72 hours, submit malware to DC3, preserve images for 90 days, and pass the report number up the chain. Not legal advice.">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://govconceo.org/reports/2026-10-16-dfars-7012-incident-reporting-72-hours.html">
+    <meta property="og:url" content="https://govconceo.org/reports/2026-10-16-dfars-7012-incident-reporting-72-hours.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions">
+    <meta name="twitter:description" content="What DFARS 252.204-7012 requires when a cyber incident hits covered defense information: review, report to DIBNet within 72 hours, submit malware to DC3, preserve images for 90 days, and pass the report number up the chain. Not legal advice.">
+        <meta property="article:published_time" content="2026-10-16">
+    <meta property="article:modified_time" content="2026-10-16">
+    <meta property="article:section" content="Cyber &amp; Compliance">
+    <link rel="alternate" type="application/rss+xml" title="GovConCEO Reports" href="../feed.xml">
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="icon" href="../favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <meta property="og:image" content="https://govconceo.org/assets/img/govconceo-og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="GovConCEO">
+    <meta name="twitter:image" content="https://govconceo.org/assets/img/govconceo-og.png">
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "Report",
+          "headline": "DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions",
+          "name": "DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions",
+          "description": "72 hours from discovery. DFARS 252.204-7012 defines \"rapidly report\" as \"within 72 hours of discovery of any cyber incident.\" Reports go to DoD at dibnet.dod.mil. You need a certificate first. Reporting requires a DoD-approved medium assurance certificate. Get one before an incident, not during it.",
+          "dateCreated": "2026-10-16",
+          "dateModified": "2026-10-16",
+          "datePublished": "2026-10-16",
+          "creativeWorkStatus": "Published",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "wordCount": 1467,
+          "timeRequired": "PT8M",
+          "author": {
+                "@type": "Organization",
+                "name": "GovConCEO"
+          },
+          "publisher": {
+                "@type": "Organization",
+                "name": "GovConCEO",
+                "logo": "https://govconceo.org/assets/img/govconceo-logo@2x.png",
+                "url": "https://govconceo.org/"
+          },
+          "about": "Cyber & Compliance",
+          "url": "https://govconceo.org/reports/2026-10-16-dfars-7012-incident-reporting-72-hours.html"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                        {
+                                  "@type": "ListItem",
+                                  "position": 1,
+                                  "name": "Home",
+                                  "item": "https://govconceo.org/"
+                        },
+                        {
+                                  "@type": "ListItem",
+                                  "position": 2,
+                                  "name": "Cyber & Compliance",
+                                  "item": "https://govconceo.org/sections/cyber-compliance.html"
+                        }
+              ]
+    }
+    </script>
+</head>
+<body class="bg-white text-black antialiased min-h-screen flex flex-col border-t-8 border-govBlue">
+
+    <div class="sticky top-0 z-50">
+
+    <header class="border-b-2 border-black bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <a href="../index.html" class="flex flex-col items-center sm:flex-row sm:items-center gap-1 sm:gap-3 no-underline min-w-0">
+                <img src="../assets/img/govconceo-logo.png" srcset="../assets/img/govconceo-logo.png 1x, ../assets/img/govconceo-logo@2x.png 2x" width="250" height="36" alt="GovConCEO" class="site-logo">
+                <span class="font-sans font-extrabold text-base sm:text-2xl tracking-tight text-black leading-tight text-center sm:text-left">Executive Intelligence Brief</span>
+            </a>
+            <div class="flex items-center space-x-4 font-sans text-sm">
+                <span class="text-[13px] font-semibold bg-slate-100 text-slate-800 px-3 py-1 rounded border border-slate-300">LLM &amp; Human Accessible</span>
+            </div>
+        </div>
+
+        <nav class="bg-slate-900 text-white font-sans text-[13px] sm:text-sm uppercase tracking-wider font-bold border-t border-slate-700 overflow-x-auto" aria-label="Section navigation">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-6 py-3 whitespace-nowrap">
+                <a href="../index.html#cyber-compliance" class="nav-sec nav-sec-cyber" aria-current="page">1. Cyber &amp; Compliance</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#far-overhaul" class="nav-sec nav-sec-far">2. FAR Overhaul</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#budget-pipeline" class="nav-sec nav-sec-budget">3. Budget &amp; Pipeline</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#ai-advanced-tech" class="nav-sec nav-sec-ai">4. AI &amp; Advanced Tech</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#supply-chain" class="nav-sec nav-sec-supply">5. Supply Chain</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../about.html" class="nav-sec nav-sec-about">About</a>
+            </div>
+        </nav>
+    </header>
+    </div>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-1 w-full grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-8">
+        <nav class="font-sans text-[13px] leading-6 text-slate-700 mb-8" aria-label="Breadcrumb">
+            <ol class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <li><a href="../index.html" class="font-semibold text-govBlue hover:text-govDarkBlue hover:underline">Home</a></li>
+                <li class="text-slate-400" aria-hidden="true">›</li>
+                <li><a href="../sections/cyber-compliance.html" class="font-semibold text-sec-cyber hover:underline">Cyber &amp; Compliance</a></li>
+            </ol>
+        </nav>
+
+        <article class="max-w-[70ch] space-y-6">
+            <div class="bg-sec-cyber text-white px-3 py-1 inline-block font-sans font-bold text-[13px] uppercase tracking-widest">
+    Section 01 // Cyber &amp; Compliance
+</div>
+
+<header>
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm mb-2 font-sans font-semibold">
+        <span class="text-sec-cyber uppercase tracking-wider">Compliance Playbook</span>
+        <span class="text-slate-400" aria-hidden="true">•</span>
+        <time class="text-slate-700" datetime="2026-10-16">Playbook | Oct 16, 2026</time>
+        <span class="text-slate-400" aria-hidden="true">•</span>
+        <span class="text-slate-700">8 min read</span>
+        <span class="text-slate-400" aria-hidden="true">•</span>
+        <span class="text-slate-700">1,467 words</span>
+    </div>
+    <h1 class="font-sans text-3xl sm:text-4xl font-extrabold text-black leading-tight mb-4">
+        DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions
+    </h1>
+</header>
+
+<div class="bg-sec-cyber-tint border-l-4 border-sec-cyber p-5 rounded-r-md border border-slate-200">
+    <p class="font-bold text-[13px] uppercase tracking-wider text-sec-cyber mb-3">Key takeaways</p>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>72 hours from discovery.</strong> DFARS 252.204-7012 defines "rapidly report" as "within 72 hours of discovery of any cyber incident." Reports go to DoD at dibnet.dod.mil.</li>
+    <li><strong>You need a certificate first.</strong> Reporting requires a DoD-approved medium assurance certificate. Get one before an incident, not during it.</li>
+    <li><strong>Preserve for 90 days.</strong> Images of affected systems and relevant monitoring and packet-capture data must be kept at least 90 days from the report.</li>
+    <li><strong>Malware goes to DC3, not the contracting officer.</strong> The clause says so in plain terms.</li>
+    <li><strong>A report is not an admission.</strong> DFARS 204.7302(d) says a reported incident "shall not, by itself" be read as evidence of inadequate security.</li>
+    <li><strong>Subs report too.</strong> Under 7012(m), subcontractors must give the DoD-assigned incident report number to the prime or next higher tier.</li>
+    <li><strong>A FAR-wide 72-hour rule is proposed.</strong> FAR Case 2026-001 would set 72 hours for CUI incidents governmentwide, with non-DoD reports going to CISA. The January 2025 version had proposed 8 hours. Neither is final.</li>
+</ul>
+</div>
+
+<div class="key-dates">
+    <table>
+        <caption>Key dates</caption>
+        <thead>
+            <tr><th scope="col">Clock</th><th scope="col">Duty</th><th scope="col">Source</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Hour 0</th>
+                <td>Discovery of a cyber incident affecting a covered system, covered defense information, or operationally critical support</td>
+                <td>DFARS 252.204-7012(c)(1)</td>
+            </tr>
+            <tr>
+                <th scope="row">Within 72 hours</th>
+                <td>Report to DoD at dibnet.dod.mil</td>
+                <td>DFARS 252.204-7012(a), (c)(1)(ii)</td>
+            </tr>
+            <tr>
+                <th scope="row">At least 90 days from the report</th>
+                <td>Preserve images and monitoring/packet-capture data</td>
+                <td>DFARS 252.204-7012(e)</td>
+            </tr>
+            <tr>
+                <th scope="row">Within 1 business day</th>
+                <td>Separate report if covered Section 889 equipment is found</td>
+                <td>FAR 52.204-25(d)(2)(i)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 class="font-sans text-2xl font-extrabold text-black pt-4">Findings</h2>
+
+<h3 class="finding-hed">What triggers the clock</h3>
+
+<p class="article-body">DFARS 252.204-7012(c)(1) applies when the contractor "discovers a cyber incident" that affects any of three things:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>A covered contractor information system.</strong></li>
+    <li><strong>The covered defense information residing on it.</strong></li>
+    <li><strong>Operationally critical support.</strong> This means the contractor's ability to perform contract requirements designated as operationally critical support.</li>
+</ul>
+
+<p class="article-body">The clause defines a cyber incident as actions through computer networks "that result in a compromise or an actual or potentially adverse effect on an information system and/or the information residing therein." "Compromise" includes unauthorized disclosure, modification, destruction or loss, and copying to unauthorized media where any of these "may have occurred."</p>
+
+<figure class="pull-quote pull-quote-cyber">
+    <blockquote>
+        <p>"Rapidly report means within 72 hours of discovery of any cyber incident."</p>
+    </blockquote>
+    <figcaption><cite>DFARS 252.204-7012(a), Safeguarding Covered Defense Information and Cyber Incident Reporting (MAY 2024), 48 CFR 252.204-7012</cite></figcaption>
+</figure>
+
+<h3 class="finding-hed">Two duties run in parallel: review and report</h3>
+
+<p class="article-body">Paragraph (c)(1) requires two actions:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>Review for compromise.</strong> Identify compromised computers, servers, specific data and user accounts. The review must cover systems that were part of the incident and other systems on the network that may have been accessed.</li>
+    <li><strong>Rapidly report.</strong> Report to DoD at https://dibnet.dod.mil.</li>
+</ul>
+
+<p class="article-body">Paragraph (c)(2) says the report is treated as information created by or for DoD. It must include, at a minimum, the elements required at dibnet.dod.mil.</p>
+
+<h3 class="finding-hed">The certificate is a day-zero item</h3>
+
+<p class="article-body">Paragraph (c)(3) requires the contractor or subcontractor to "have or acquire" a DoD-approved medium assurance certificate to report. The clause points to https://public.cyber.mil/eca/ for how to obtain one.</p>
+
+<p class="article-body">Because the 72-hour clock runs from discovery, a company that first applies for a certificate after an incident risks missing the deadline. The clause does not provide extra time for that.</p>
+
+<h3 class="finding-hed">Malware, media and forensics</h3>
+
+<p class="article-body">After the report, paragraphs (d) through (g) set out what DoD may ask for:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>(d) Malicious software.</strong> Submit isolated malware to the DoD Cyber Crime Center (DC3) under DC3's or the contracting officer's instructions. "Do not send the malicious software to the Contracting Officer."</li>
+    <li><strong>(e) Media preservation.</strong> Preserve images of all known affected systems and all relevant monitoring and packet-capture data for at least 90 days from the report, so DoD can request the media or decline interest.</li>
+    <li><strong>(f) Forensic access.</strong> On request, give DoD access to additional information or equipment needed for forensic analysis.</li>
+    <li><strong>(g) Damage assessment.</strong> If DoD elects to do a damage assessment, the contracting officer will request the information gathered under paragraph (e).</li>
+</ul>
+
+<h3 class="finding-hed">Cloud providers carry the same duties</h3>
+
+<p class="article-body">Under 7012(b)(2)(ii)(D), a contractor using an external cloud provider for covered defense information must ensure the provider meets FedRAMP Moderate-equivalent security. The provider must also comply with paragraphs (c) through (g), covering incident reporting, malware, media preservation, forensic access and damage assessment.</p>
+
+<p class="article-body">Separately, DFARS 252.239-7010(d) requires reporting of all cyber incidents related to cloud computing services provided under that clause, also via DIBNet.</p>
+
+<h3 class="finding-hed">Subcontractors: report to DoD, tell the prime</h3>
+
+<p class="article-body">DFARS 252.204-7012(m)(2)(ii) requires subcontractors to give the incident report number, "automatically assigned by DoD," to the prime or next higher-tier subcontractor "as soon as practicable." DFARS 204.7302(b) describes the same flow.</p>
+
+<p class="article-body">That gives the prime a trackable reference without the subcontractor having to share its full report up the chain.</p>
+
+<h3 class="finding-hed">Reporting is not proof of a violation</h3>
+
+<figure class="pull-quote pull-quote-cyber">
+    <blockquote>
+        <p>"A cyber incident that is reported by a contractor or subcontractor shall not, by itself, be interpreted as evidence that the contractor or subcontractor has failed to provide adequate security on their covered contractor information systems, or has otherwise failed to meet the requirements of the clause at 252.204-7012."</p>
+    </blockquote>
+    <figcaption><cite>DFARS 204.7302(d), Policy, Acquisition.gov, Change 5/7/2026</cite></figcaption>
+</figure>
+
+<p class="article-body">The same paragraph says the contracting officer must consult the DoD component CIO or cybersecurity office before assessing compliance. Incidents are considered "in the context of an overall assessment."</p>
+
+<h3 class="finding-hed">How DoD may use what you report</h3>
+
+<p class="article-body">Paragraphs (i) and (j) authorize release of reported information outside DoD in defined cases. These include entities whose missions may be affected, entities assisting with diagnosis or mitigation, and counterintelligence or law enforcement investigations.</p>
+
+<p class="article-body">Paragraph (l) says 7012 "in no way abrogates" other reporting duties under other clauses or law. A 7012 report may not be the only notice an incident requires.</p>
+
+<h3 class="finding-hed">Other clocks that may run at the same time</h3>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>Section 889 equipment.</strong> FAR 52.204-25(d) requires a report within one business day of identifying covered telecommunications equipment or services. For DoD it goes to dibnet.dod.mil.</li>
+    <li><strong>Proposed FAR CUI clause.</strong> FAR Case 2026-001 (91 FR 37550, June 23, 2026) proposes clause 52.240-7. CUI incidents would be reported within 72 hours of discovery, to DIBNet for DoD and to CISA for other agencies, with notice to the contracting officer.</li>
+    <li><strong>Earlier proposal.</strong> The January 15, 2025 FAR CUI proposed rule (90 FR 4278) had proposed 8 hours. The 2026 preamble says commenters' concerns led to the 72-hour change.</li>
+</ul>
+
+<p class="article-body">The 2026 preamble also proposes standardizing supply-chain prohibition disclosures at 72 hours. That would replace the one-business-day 889 report, if the rule is finalized.</p>
+
+<div class="bg-sec-cyber-tint border-l-4 border-sec-cyber p-5 rounded-r-md border border-slate-200 space-y-3">
+    <p class="font-bold text-[13px] uppercase tracking-wider text-sec-cyber">What it means for contractors</p>
+
+    <h3 class="font-sans text-lg font-extrabold text-black">Bid strategy</h3>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+        <li><strong>Show an incident plan.</strong> Proposals for CUI work can point to a tested 7012 process, including who holds the certificate.</li>
+        <li><strong>Check cloud terms.</strong> Provider contracts need to pass through paragraphs (c) to (g).</li>
+    </ul>
+
+    <h3 class="font-sans text-lg font-extrabold text-black">Compliance cost</h3>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+        <li><strong>Storage.</strong> 90 days of images and packet capture for affected systems has a real storage cost. Size it in advance.</li>
+        <li><strong>Certificates.</strong> Budget for medium assurance certificates for named reporters, with backups.</li>
+        <li><strong>Retainers.</strong> Forensic support may be needed inside the 72-hour window.</li>
+    </ul>
+
+    <h3 class="font-sans text-lg font-extrabold text-black">Execution: day-one actions drawn from the clause</h3>
+    <ol class="list-decimal pl-5 space-y-2 article-body">
+        <li><strong>Start the clock.</strong> Record the discovery time; the 72 hours run from it.</li>
+        <li><strong>Scope the review.</strong> Identify compromised computers, servers, data and accounts, and other systems that may have been accessed.</li>
+        <li><strong>Preserve.</strong> Capture images and monitoring/packet-capture data before remediation overwrites them; hold for at least 90 days from the report.</li>
+        <li><strong>Report at DIBNet.</strong> Use the medium assurance certificate and submit the minimum required elements.</li>
+        <li><strong>Isolate and send malware to DC3.</strong> Not to the contracting officer.</li>
+        <li><strong>Notify up the chain.</strong> Subcontractors pass the DoD report number to the prime.</li>
+        <li><strong>Check other clocks.</strong> Section 889, other contract clauses, and other laws under paragraph (l).</li>
+    </ol>
+</div>
+
+<h2 class="font-sans text-2xl font-extrabold text-black pt-4">Watch next</h2>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>Final FAR Part 40.</strong> If finalized, proposed 52.240-7 would add a governmentwide CUI incident rule alongside 7012. No final rule had been published as of Oct 16, 2026.</li>
+    <li><strong>DFARS alignment.</strong> No DFARS rule conforming 7012 to the proposed FAR clause was found.</li>
+    <li><strong>CMMC review.</strong> Phase 2 remains suspended under the July 13, 2026 memo. 7012 still applies.</li>
+</ul>
+
+<h2 class="font-sans text-2xl font-extrabold text-black pt-4">Sources</h2>
+
+<ol class="list-decimal pl-5 space-y-2 article-body">
+    <li>DFARS 252.204-7012 (MAY 2024), 48 CFR 252.204-7012, eCFR, current as of Oct 16, 2026. <a href="https://www.ecfr.gov/current/title-48/section-252.204-7012" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">ecfr.gov</a>.</li>
+    <li>DFARS 204.7302, Policy, Acquisition.gov, Change 5/7/2026. <a href="https://www.acquisition.gov/dfars/204.7302-policy." class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">acquisition.gov</a>.</li>
+    <li>DFARS 252.239-7010, Cloud Computing Services (JAN 2023), eCFR. <a href="https://www.ecfr.gov/current/title-48/section-252.239-7010" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">ecfr.gov</a>.</li>
+    <li>FAR 52.204-25 (NOV 2021), eCFR. <a href="https://www.ecfr.gov/current/title-48/section-52.204-25" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">ecfr.gov</a>.</li>
+    <li>FAR Case 2026-001, proposed rule, 91 FR 37550, June 23, 2026 (FR Doc. 2026-12559). <a href="https://www.federalregister.gov/d/2026-12559" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">federalregister.gov</a>.</li>
+    <li>FAR Case 2017-016, Controlled Unclassified Information, proposed rule, 90 FR 4278, Jan. 15, 2025 (FR Doc. 2024-30437). <a href="https://www.federalregister.gov/d/2024-30437" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">federalregister.gov</a>.</li>
+</ol>
+
+<p class="font-sans text-[13px] pt-4">
+    <a href="../sections/cyber-compliance.html" class="font-bold uppercase tracking-wider text-sec-cyber hover:underline">← Back to Cyber &amp; Compliance</a>
+</p>
+        </article>
+
+        <div class="max-w-[70ch] mt-12 space-y-8 font-sans">
+            <div class="border border-slate-300 p-5 bg-slate-50">
+                <h2 class="font-extrabold text-sm uppercase tracking-wider text-black mb-3">Reports in this section</h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html" class="font-bold text-black hover:text-sec-cyber hover:underline">SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule</a> <span class="text-slate-600">(Nov 6, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-04-sprs-scores-explained.html" class="font-bold text-black hover:text-sec-cyber hover:underline">SPRS Scores Explained: What the 110-Point Number Means at Award, and Who Checks It</a> <span class="text-slate-600">(Nov 4, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-03-cyber-compliance-false-claims-act-risk.html" class="font-bold text-black hover:text-sec-cyber hover:underline">Cyber Compliance Is False Claims Act Risk: 18 DOJ Cyber-Fraud Resolutions Since 2022, Totaling About $82.5 Million</a> <span class="text-slate-600">(Nov 3, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-10-26-cyber-clause-flow-down-playbook.html" class="font-bold text-black hover:text-sec-cyber hover:underline">Cyber Clause Flow-Down Playbook: Which Clauses Go to Subcontractors, With What Exceptions</a> <span class="text-slate-600">(Oct 26, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-10-cmmc-phase-2-suspended.html" class="font-bold text-black hover:text-sec-cyber hover:underline">CMMC Phase 2 Is Suspended: Only Level 1 and Level 2 Self-Assessments May Be Required</a> <span class="text-slate-600">(Oct 18, 2026)</span></li>
+                    <li class="text-[15px] leading-7 text-[#1f2937]"><span class="font-bold text-black">DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions</span> <span class="text-slate-600">(Oct 16, 2026, this report)</span></li>
+                </ul>
+                    <p class="mt-2"><a href="../sections/cyber-compliance.html" class="font-bold text-[13px] uppercase tracking-wider text-sec-cyber hover:underline">Back to Cyber &amp; Compliance <span aria-hidden="true">→</span></a></p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="../reports/2026-10-15-small-business-and-far-part-19.html" class="block border border-slate-300 p-4 hover:border-black flex-1 min-w-[14rem]"><span class="block text-[13px] font-bold uppercase tracking-wider text-slate-700 mb-1">Previous report</span><span class="font-bold text-black leading-snug">Small Business and FAR Part 19: Deviation in Force, No Proposed Rule Yet, and Three SBA Rules Moving</span><time class="block text-[13px] font-normal text-slate-700 mt-1" datetime="2026-10-15">Oct 15, 2026</time></a>
+                <a href="../reports/2026-11-10-ai-procurement-rules.html" class="block border border-slate-300 p-4 hover:border-black flex-1 min-w-[14rem] sm:text-right"><span class="block text-[13px] font-bold uppercase tracking-wider text-slate-700 mb-1">Next report</span><span class="font-bold text-black leading-snug">GSA’s LLM Clause Sets Data-Use Rules; OMB Rescinds a Software Attestation Mandate and Sets 2030 Cryptography Targets</span><time class="block text-[13px] font-normal text-slate-700 mt-1" datetime="2026-10-17">Oct 17, 2026</time></a>
+            </div>
+        </div>
+        </div>
+        <aside class="lg:col-span-4 space-y-8 font-sans">
+
+            <div class="border-2 border-black p-5 bg-white shadow-sm">
+                <div class="border-b-2 border-govRed pb-2 mb-4 flex items-center justify-between gap-2">
+                    <h2 class="font-extrabold text-[13px] uppercase tracking-wider text-black">Latest Reports</h2>
+                    <span class="text-[13px] bg-red-100 text-red-800 font-bold px-2 py-0.5 rounded">Live Issue</span>
+                </div>
+                <ul class="space-y-2 text-[13px] font-semibold">
+                    <li>
+                        <a href="../reports/2026-11-10-reading-agency-procurement-forecasts.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-budget text-[13px] block font-bold mb-1 uppercase">Budget &amp; Pipeline</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                Reading Agency Procurement Forecasts: What They Promise, What They Don&#x27;t, and How Agencies Publish Them
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-10">Nov 10, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-10-how-continuing-resolutions-work.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-budget text-[13px] block font-bold mb-1 uppercase">Budget &amp; Pipeline</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                How Continuing Resolutions Work: New Starts, Funding Rates and What They Do to Awards
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-10">Nov 10, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-10-fy2027-continuing-resolution.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-budget text-[13px] block font-bold mb-1 uppercase">Budget &amp; Pipeline</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                FY2027 Is Running on a Continuing Resolution Through December 11
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-10">Nov 10, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-07-rfo-part-by-part-tracker.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-far text-[13px] block font-bold mb-1 uppercase">FAR Overhaul</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                RFO Part-by-Part Tracker: 53 FAR Parts, 8 Proposed Rules, 15 Parts Still Waiting
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-07">Nov 7, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-cyber text-[13px] block font-bold mb-1 uppercase">Cyber &amp; Compliance</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-06">Nov 6, 2026</time>
+                        </a>
+                    </li>
+                </ul>
+                <p class="mt-4 text-[13px]"><a href="../feed.xml" class="font-semibold text-govBlue hover:text-govDarkBlue hover:underline">RSS feed</a></p>
+            </div>
+
+            <div class="border border-slate-300 p-5 bg-slate-50">
+                <div class="border-b border-black pb-2 mb-4 flex items-center justify-between gap-2">
+                    <h2 class="font-extrabold text-[13px] uppercase tracking-wider text-black">Prior Executive Briefings</h2>
+                    <span class="text-[13px] text-slate-700 font-semibold">Archive</span>
+                </div>
+                <p class="text-[13px] leading-6 text-slate-800">
+                    The archive starts with this first issue, with reports dated October 11 through November 10, 2026. Earlier volumes will appear here as they are published.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 text-white p-5 rounded-none border-t-4 border-govRed">
+                <h2 class="font-extrabold text-[13px] uppercase tracking-wider text-white mb-2">
+                    LLM &amp; Executive Index
+                </h2>
+                <p class="text-[13px] leading-6 text-slate-200 mb-4">
+                    Structured indices optimized for rapid executive scans and automated document extraction. This issue includes a machine-readable summary feed and an RSS feed. No regulatory matrix file is included yet.
+                </p>
+                <div class="space-y-2 text-[13px]">
+                    <a href="../assets/summary-feed.json" class="block bg-slate-800 hover:bg-slate-700 text-white p-2 border-l-2 border-govRed font-mono text-[13px]">
+                        assets/summary-feed.json
+                    </a>
+                    <a href="../feed.xml" class="block bg-slate-800 hover:bg-slate-700 text-white p-2 border-l-2 border-govRed font-mono text-[13px]">
+                        feed.xml
+                    </a>
+                </div>
+            </div>
+
+        </aside>
+    </main>
+
+    <footer class="bg-black text-white font-sans text-[13px] py-8 border-t-4 border-govRed mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div>
+                <img src="../assets/img/govconceo-logo-footer.png" srcset="../assets/img/govconceo-logo-footer.png 1x, ../assets/img/govconceo-logo-footer@2x.png 2x" width="222" height="32" alt="GovConCEO" class="site-logo-footer">
+                <p class="text-slate-300 mt-1">Executive Intelligence &amp; Compliance Briefing for U.S. Government Contractors</p>
+            </div>
+            <div class="text-slate-300 sm:text-right">
+                <p><a href="../feed.xml" class="font-semibold text-white hover:underline">RSS</a> · <a href="../about.html" class="font-semibold text-white hover:underline">About</a></p>
+                <p>© 2026 GovConCEO. Optimized for human and AI consumption. Not legal advice.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

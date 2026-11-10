@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule — GovConCEO</title>
+    <meta name="description" content="The assessment objectives for the system security plan (3.12.4) and plans of action (3.12.2), the CMMC POA&amp;M limits in 32 CFR 170.21, and what DOJ settlements say about missing plans. Not legal advice.">
+    <meta name="author" content="GovConCEO">
+    <meta property="og:site_name" content="GovConCEO">
+    <meta property="og:title" content="SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule">
+    <meta property="og:description" content="The assessment objectives for the system security plan (3.12.4) and plans of action (3.12.2), the CMMC POA&amp;M limits in 32 CFR 170.21, and what DOJ settlements say about missing plans. Not legal advice.">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://govconceo.org/reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html">
+    <meta property="og:url" content="https://govconceo.org/reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule">
+    <meta name="twitter:description" content="The assessment objectives for the system security plan (3.12.4) and plans of action (3.12.2), the CMMC POA&amp;M limits in 32 CFR 170.21, and what DOJ settlements say about missing plans. Not legal advice.">
+        <meta property="article:published_time" content="2026-11-06">
+    <meta property="article:modified_time" content="2026-11-06">
+    <meta property="article:section" content="Cyber &amp; Compliance">
+    <link rel="alternate" type="application/rss+xml" title="GovConCEO Reports" href="../feed.xml">
+    <link rel="stylesheet" href="../assets/site.css">
+    <link rel="icon" href="../favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <meta property="og:image" content="https://govconceo.org/assets/img/govconceo-og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="GovConCEO">
+    <meta name="twitter:image" content="https://govconceo.org/assets/img/govconceo-og.png">
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "Report",
+          "headline": "SSP and POA&M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule",
+          "name": "SSP and POA&M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule",
+          "description": "No SSP, no assessment. Under 32 CFR 170.24, the absence of an up-to-date SSP means an assessment \"could not be completed.\" The SSP (3.12.4) can never go on a CMMC POA&M. Eight objectives for the SSP. NIST SP 800-171A breaks 3.12.4 into eight determinations, [a] through [h].",
+          "dateCreated": "2026-11-06",
+          "dateModified": "2026-11-06",
+          "datePublished": "2026-11-06",
+          "creativeWorkStatus": "Published",
+          "inLanguage": "en-US",
+          "isAccessibleForFree": true,
+          "wordCount": 1478,
+          "timeRequired": "PT8M",
+          "author": {
+                "@type": "Organization",
+                "name": "GovConCEO"
+          },
+          "publisher": {
+                "@type": "Organization",
+                "name": "GovConCEO",
+                "logo": "https://govconceo.org/assets/img/govconceo-logo@2x.png",
+                "url": "https://govconceo.org/"
+          },
+          "about": "Cyber & Compliance",
+          "url": "https://govconceo.org/reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                        {
+                                  "@type": "ListItem",
+                                  "position": 1,
+                                  "name": "Home",
+                                  "item": "https://govconceo.org/"
+                        },
+                        {
+                                  "@type": "ListItem",
+                                  "position": 2,
+                                  "name": "Cyber & Compliance",
+                                  "item": "https://govconceo.org/sections/cyber-compliance.html"
+                        }
+              ]
+    }
+    </script>
+</head>
+<body class="bg-white text-black antialiased min-h-screen flex flex-col border-t-8 border-govBlue">
+
+    <div class="sticky top-0 z-50">
+
+    <header class="border-b-2 border-black bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <a href="../index.html" class="flex flex-col items-center sm:flex-row sm:items-center gap-1 sm:gap-3 no-underline min-w-0">
+                <img src="../assets/img/govconceo-logo.png" srcset="../assets/img/govconceo-logo.png 1x, ../assets/img/govconceo-logo@2x.png 2x" width="250" height="36" alt="GovConCEO" class="site-logo">
+                <span class="font-sans font-extrabold text-base sm:text-2xl tracking-tight text-black leading-tight text-center sm:text-left">Executive Intelligence Brief</span>
+            </a>
+            <div class="flex items-center space-x-4 font-sans text-sm">
+                <span class="text-[13px] font-semibold bg-slate-100 text-slate-800 px-3 py-1 rounded border border-slate-300">LLM &amp; Human Accessible</span>
+            </div>
+        </div>
+
+        <nav class="bg-slate-900 text-white font-sans text-[13px] sm:text-sm uppercase tracking-wider font-bold border-t border-slate-700 overflow-x-auto" aria-label="Section navigation">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-6 py-3 whitespace-nowrap">
+                <a href="../index.html#cyber-compliance" class="nav-sec nav-sec-cyber" aria-current="page">1. Cyber &amp; Compliance</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#far-overhaul" class="nav-sec nav-sec-far">2. FAR Overhaul</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#budget-pipeline" class="nav-sec nav-sec-budget">3. Budget &amp; Pipeline</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#ai-advanced-tech" class="nav-sec nav-sec-ai">4. AI &amp; Advanced Tech</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../index.html#supply-chain" class="nav-sec nav-sec-supply">5. Supply Chain</a>
+                <span class="text-slate-500" aria-hidden="true">|</span>
+                <a href="../about.html" class="nav-sec nav-sec-about">About</a>
+            </div>
+        </nav>
+    </header>
+    </div>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-1 w-full grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-8">
+        <nav class="font-sans text-[13px] leading-6 text-slate-700 mb-8" aria-label="Breadcrumb">
+            <ol class="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <li><a href="../index.html" class="font-semibold text-govBlue hover:text-govDarkBlue hover:underline">Home</a></li>
+                <li class="text-slate-400" aria-hidden="true">›</li>
+                <li><a href="../sections/cyber-compliance.html" class="font-semibold text-sec-cyber hover:underline">Cyber &amp; Compliance</a></li>
+            </ol>
+        </nav>
+
+        <article class="max-w-[70ch] space-y-6">
+            <div class="bg-sec-cyber text-white px-3 py-1 inline-block font-sans font-bold text-[13px] uppercase tracking-widest">
+    Section 01 // Cyber &amp; Compliance
+</div>
+
+<header>
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm mb-2 font-sans font-semibold">
+        <span class="text-sec-cyber uppercase tracking-wider">Compliance Explainer</span>
+        <span class="text-slate-400" aria-hidden="true">•</span>
+        <time class="text-slate-700" datetime="2026-11-06">Explainer | Nov 6, 2026</time>
+        <span class="text-slate-400" aria-hidden="true">•</span>
+        <span class="text-slate-700">8 min read</span>
+        <span class="text-slate-400" aria-hidden="true">•</span>
+        <span class="text-slate-700">1,478 words</span>
+    </div>
+    <h1 class="font-sans text-3xl sm:text-4xl font-extrabold text-black leading-tight mb-4">
+        SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule
+    </h1>
+</header>
+
+<div class="bg-sec-cyber-tint border-l-4 border-sec-cyber p-5 rounded-r-md border border-slate-200">
+    <p class="font-bold text-[13px] uppercase tracking-wider text-sec-cyber mb-3">Key takeaways</p>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>No SSP, no assessment.</strong> Under 32 CFR 170.24, the absence of an up-to-date SSP means an assessment "could not be completed." The SSP (3.12.4) can never go on a CMMC POA&amp;M.</li>
+    <li><strong>Eight objectives for the SSP.</strong> NIST SP 800-171A breaks 3.12.4 into eight determinations, [a] through [h]. They include boundary, environment, implementation method, connections and a defined update frequency.</li>
+    <li><strong>Three objectives for the plan of action.</strong> 800-171A asks whether deficiencies are identified, whether a plan is developed, and whether it is implemented (3.12.2[a] to [c]).</li>
+    <li><strong>A POA&amp;M is not a pass.</strong> 32 CFR 170.24 says a POA&amp;M "is not a substitute for a completed requirement." Unimplemented requirements are scored NOT MET.</li>
+    <li><strong>CMMC POA&amp;Ms are narrow.</strong> A conditional Level 2 status needs a score of at least 80% of the maximum, only 1-point items (plus non-FIPS encryption), and closeout within 180 days.</li>
+    <li><strong>DOJ cites missing plans.</strong> MORSECORP, Raytheon/Nightwing and ILC Dover settlements all included allegations or admissions about missing or outdated SSPs. Penn State's turned on plan-of-action dates.</li>
+</ul>
+</div>
+
+<div class="key-dates">
+    <table>
+        <caption>Key dates</caption>
+        <thead>
+            <tr><th scope="col">Item</th><th scope="col">Rule</th><th scope="col">Source</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Feb 2020 (upd. Jan 28, 2021)</th>
+                <td>NIST SP 800-171 Rev 2, the version cited in DFARS 252.204-7012 and 32 CFR 170</td>
+                <td>NIST</td>
+            </tr>
+            <tr>
+                <th scope="row">June 2018</th>
+                <td>NIST SP 800-171A assessment procedures</td>
+                <td>NIST</td>
+            </tr>
+            <tr>
+                <th scope="row">180 days</th>
+                <td>POA&amp;M closeout window for a Conditional CMMC status</td>
+                <td>32 CFR 170.21(b)</td>
+            </tr>
+            <tr>
+                <th scope="row">Annual</th>
+                <td>Affirmation of continuing compliance in SPRS</td>
+                <td>DFARS 252.204-7021(d)(3)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 class="font-sans text-2xl font-extrabold text-black pt-4">Findings</h2>
+
+<h3 class="finding-hed">The SSP is the document everything else is scored against</h3>
+
+<p class="article-body">NIST SP 800-171 Rev 2 requirement 3.12.4 is to "develop, document, and periodically update system security plans." The plans must describe system boundaries, environments of operation, how requirements are implemented, and connections to other systems.</p>
+
+<p class="article-body">DFARS 252.204-7020 defines a Basic Assessment as one based on the contractor's review of its system security plan(s). The SPRS submission is organized by SSP, with the CAGE codes each plan covers.</p>
+
+<figure class="pull-quote pull-quote-cyber">
+    <blockquote>
+        <p>"The absence of an up to date SSP at the time of the assessment would result in a finding that 'an assessment could not be completed due to incomplete information and noncompliance with 48 CFR 252.204-7012.'"</p>
+    </blockquote>
+    <figcaption><cite>32 CFR 170.24(c)(2)(i)(B)(5), CMMC Scoring Methodology, eCFR, current as of Nov 6, 2026</cite></figcaption>
+</figure>
+
+<h3 class="finding-hed">What 800-171A asks of an SSP: eight determinations</h3>
+
+<p class="article-body">NIST SP 800-171A sets out the assessment objectives for 3.12.4. An assessor determines whether:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>[a] Exists.</strong> A system security plan is developed.</li>
+    <li><strong>[b] Boundary.</strong> The system boundary is described and documented.</li>
+    <li><strong>[c] Environment.</strong> The system environment of operation is described and documented.</li>
+    <li><strong>[d] Non-applicable items.</strong> Requirements approved by the designated authority as non-applicable are identified.</li>
+    <li><strong>[e] Implementation.</strong> The method of implementing each requirement is described and documented.</li>
+    <li><strong>[f] Connections.</strong> Relationships with or connections to other systems are described and documented.</li>
+    <li><strong>[g] Frequency defined.</strong> The frequency for updating the plan is defined.</li>
+    <li><strong>[h] Frequency met.</strong> The plan is updated at that frequency.</li>
+</ul>
+
+<p class="article-body">800-171A lists three methods: examine (for example, the plan and records of its reviews), interview (personnel with planning duties) and test (the processes for developing, reviewing and approving the plan).</p>
+
+<h3 class="finding-hed">Format is flexible; content is not</h3>
+
+<p class="article-body">The Rev 2 discussion section for 3.12.4 gives organizations latitude on form:</p>
+
+<figure class="pull-quote pull-quote-cyber">
+    <blockquote>
+        <p>"There is no prescribed format or specified level of detail for system security plans. However, organizations ensure that the required information in 3.12.4 is conveyed in those plans."</p>
+    </blockquote>
+    <figcaption><cite>NIST SP 800-171 Rev 2, footnote 28 to requirement 3.12.4, February 2020 (updated January 28, 2021)</cite></figcaption>
+</figure>
+
+<p class="article-body">The same discussion says security plans "need not be single documents" and can be a collection of existing documents. 32 CFR 170.4 defines the SSP as "the formal document" that describes components, environment, implementation and connections.</p>
+
+<h3 class="finding-hed">What 800-171A asks of a plan of action: three determinations</h3>
+
+<p class="article-body">Requirement 3.12.2 is to "develop and implement plans of action designed to correct deficiencies and reduce or eliminate vulnerabilities." 800-171A asks whether:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>[a] Identified.</strong> Deficiencies and vulnerabilities to be addressed are identified.</li>
+    <li><strong>[b] Developed.</strong> A plan of action is developed to correct them.</li>
+    <li><strong>[c] Implemented.</strong> The plan is implemented.</li>
+</ul>
+
+<p class="article-body">The Rev 2 discussion says organizations can document the SSP and plan of action "as separate or combined documents and in any chosen format."</p>
+
+<h3 class="finding-hed">Evidence has to be final</h3>
+
+<p class="article-body">32 CFR 170.24(b)(1) sets the evidence standard for a MET finding. "All evidence must be in final form and not draft."</p>
+
+<p class="article-body">The rule lists working papers, drafts, and unofficial or unapproved policies as unacceptable forms of evidence. For each NOT MET objective, the assessor documents why the evidence does not conform.</p>
+
+<p class="article-body">Two items can still score MET under 170.24(b)(1):</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>Enduring exceptions.</strong> These count as MET when described, with any mitigations, in the SSP.</li>
+    <li><strong>Temporary deficiencies.</strong> These count as MET when addressed in operational plans of action that include deficiency reviews and show progress.</li>
+</ul>
+
+<h3 class="finding-hed">The CMMC POA&amp;M is a narrow, time-boxed tool</h3>
+
+<p class="article-body">32 CFR 170.21 controls when a POA&amp;M can support a Conditional CMMC status:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>Level 1.</strong> No POA&amp;M is permitted.</li>
+    <li><strong>80% threshold.</strong> For Level 2, the score divided by the number of Level 2 requirements must be at least 0.8.</li>
+    <li><strong>1-point items only.</strong> No POA&amp;M item may carry more than 1 point. The one exception is 3.13.11 encryption that is used but not FIPS-validated, which is worth 3.</li>
+    <li><strong>Never on a POA&amp;M.</strong> 3.1.20, 3.1.22, 3.12.4 (the SSP), 3.10.3, 3.10.4 and 3.10.5.</li>
+    <li><strong>180 days.</strong> A closeout assessment must confirm closure within 180 days of the Conditional status date, or the status expires.</li>
+</ul>
+
+<p class="article-body">Under 170.24(c)(2)(i)(B)(6), "a POA&amp;M addressing NOT MET security requirements is not a substitute for a completed requirement."</p>
+
+<h3 class="finding-hed">What DOJ settlements say about plans</h3>
+
+<p class="article-body">Plan failures appear repeatedly in DOJ's cyber-fraud releases:</p>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>MORSECORP (Mar 2025, $4.6M).</strong> The company admitted it lacked a consolidated written plan for each covered system from January 2018 to January 2021.</li>
+    <li><strong>Raytheon/Nightwing (May 2025, $8.4M).</strong> DOJ alleged a failure to develop and implement an SSP for an internal development system used on DoD work.</li>
+    <li><strong>Penn State (Oct 2024, $1.25M).</strong> DOJ alleged the university misrepresented implementation dates and did not pursue its plans of action.</li>
+    <li><strong>ILC Dover (Nov 2026, $13M).</strong> DOJ alleged no SSP, developed and periodically updated, for long stretches between 2018 and 2024, and gaps in plans of action and milestones.</li>
+</ul>
+
+<p class="article-body">These are allegations resolved by settlement unless the release says the company admitted facts, as MORSECORP did.</p>
+
+<div class="bg-sec-cyber-tint border-l-4 border-sec-cyber p-5 rounded-r-md border border-slate-200 space-y-3">
+    <p class="font-bold text-[13px] uppercase tracking-wider text-sec-cyber">What it means for contractors</p>
+
+    <h3 class="font-sans text-lg font-extrabold text-black">Bid strategy</h3>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+        <li><strong>Treat the SSP as a proposal asset.</strong> The SPRS score that gates award (DFARS 252.204-7019) is built on it.</li>
+        <li><strong>Scope matters.</strong> One SSP per system, with the CAGE codes it covers, is the unit SPRS records.</li>
+    </ul>
+
+    <h3 class="font-sans text-lg font-extrabold text-black">Compliance cost</h3>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+        <li><strong>Budget for upkeep, not authorship.</strong> Objectives [g] and [h] score whether you set an update frequency and kept to it.</li>
+        <li><strong>Retire drafts.</strong> Draft policies are not acceptable evidence under 170.24(b)(1).</li>
+        <li><strong>Fix the big items first.</strong> Under 170.21, 3-point and 5-point gaps cannot support a Conditional CMMC status, except non-FIPS encryption.</li>
+    </ul>
+
+    <h3 class="font-sans text-lg font-extrabold text-black">Execution</h3>
+    <ul class="list-disc pl-5 space-y-2 article-body">
+        <li><strong>Date discipline.</strong> Plan dates feed the "score of 110" date in SPRS. Penn State's case shows those dates are treated as representations.</li>
+        <li><strong>Name an owner.</strong> CMMC requires an Affirming Official, defined in 32 CFR 170.4, to affirm continuing compliance annually.</li>
+        <li><strong>Map connections.</strong> Objective 3.12.4[f] and the cloud duties in 7012 both depend on knowing every external connection.</li>
+    </ul>
+</div>
+
+<h2 class="font-sans text-2xl font-extrabold text-black pt-4">Watch next</h2>
+
+<ul class="list-disc pl-5 space-y-2 article-body">
+    <li><strong>CMMC Phase 2 review.</strong> Only Level 1 (Self) and Level 2 (Self) may be required while the July 13, 2026 suspension stands.</li>
+    <li><strong>Rev 3.</strong> NIST shows Rev 2 withdrawn and superseded by Rev 3 (May 14, 2024). The DFARS and CMMC texts opened still cite Rev 2.</li>
+    <li><strong>FAR CUI clause.</strong> Proposed FAR 52.240-7 (FAR Case 2026-001) would add a governmentwide CUI clause. It is not final.</li>
+</ul>
+
+<h2 class="font-sans text-2xl font-extrabold text-black pt-4">Sources</h2>
+
+<ol class="list-decimal pl-5 space-y-2 article-body">
+    <li>NIST SP 800-171 Rev. 2, <em>Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations</em>, Feb. 2020 (updated Jan. 28, 2021). <a href="https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">csrc.nist.gov</a>. PDF opened Nov 6, 2026.</li>
+    <li>NIST SP 800-171A, <em>Assessing Security Requirements for Controlled Unclassified Information</em>, June 2018. <a href="https://csrc.nist.gov/pubs/sp/800/171/a/final" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">csrc.nist.gov</a>. PDF opened Nov 6, 2026.</li>
+    <li>32 CFR 170.4, 170.21 and 170.24, eCFR, current as of Nov 6, 2026. <a href="https://www.ecfr.gov/current/title-32/part-170" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">ecfr.gov/current/title-32/part-170</a>.</li>
+    <li>DFARS 252.204-7020 and 252.204-7021, Acquisition.gov, Change 5/7/2026. <a href="https://www.acquisition.gov/dfars" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">acquisition.gov/dfars</a>.</li>
+    <li>U.S. Department of Justice press releases: MORSECORP (Mar. 26, 2025); Raytheon/Nightwing (May 1, 2025); Penn State (Oct. 22, 2024); ILC Dover (Nov. 3, 2026). <a href="https://www.justice.gov/opa/pr/defense-contractor-morsecorp-inc-agrees-pay-46-million-settle-cybersecurity-fraud" class="text-govBlue font-semibold underline underline-offset-2 hover:text-govDarkBlue">justice.gov/opa</a>.</li>
+</ol>
+
+<p class="font-sans text-[13px] pt-4">
+    <a href="../sections/cyber-compliance.html" class="font-bold uppercase tracking-wider text-sec-cyber hover:underline">← Back to Cyber &amp; Compliance</a>
+</p>
+        </article>
+
+        <div class="max-w-[70ch] mt-12 space-y-8 font-sans">
+            <div class="border border-slate-300 p-5 bg-slate-50">
+                <h2 class="font-extrabold text-sm uppercase tracking-wider text-black mb-3">Reports in this section</h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li class="text-[15px] leading-7 text-[#1f2937]"><span class="font-bold text-black">SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule</span> <span class="text-slate-600">(Nov 6, 2026, this report)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-04-sprs-scores-explained.html" class="font-bold text-black hover:text-sec-cyber hover:underline">SPRS Scores Explained: What the 110-Point Number Means at Award, and Who Checks It</a> <span class="text-slate-600">(Nov 4, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-03-cyber-compliance-false-claims-act-risk.html" class="font-bold text-black hover:text-sec-cyber hover:underline">Cyber Compliance Is False Claims Act Risk: 18 DOJ Cyber-Fraud Resolutions Since 2022, Totaling About $82.5 Million</a> <span class="text-slate-600">(Nov 3, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-10-26-cyber-clause-flow-down-playbook.html" class="font-bold text-black hover:text-sec-cyber hover:underline">Cyber Clause Flow-Down Playbook: Which Clauses Go to Subcontractors, With What Exceptions</a> <span class="text-slate-600">(Oct 26, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-11-10-cmmc-phase-2-suspended.html" class="font-bold text-black hover:text-sec-cyber hover:underline">CMMC Phase 2 Is Suspended: Only Level 1 and Level 2 Self-Assessments May Be Required</a> <span class="text-slate-600">(Oct 18, 2026)</span></li>
+                    <li class="text-[15px] leading-7"><a href="../reports/2026-10-16-dfars-7012-incident-reporting-72-hours.html" class="font-bold text-black hover:text-sec-cyber hover:underline">DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions</a> <span class="text-slate-600">(Oct 16, 2026)</span></li>
+                </ul>
+                    <p class="mt-2"><a href="../sections/cyber-compliance.html" class="font-bold text-[13px] uppercase tracking-wider text-sec-cyber hover:underline">Back to Cyber &amp; Compliance <span aria-hidden="true">→</span></a></p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="../reports/2026-11-04-sprs-scores-explained.html" class="block border border-slate-300 p-4 hover:border-black flex-1 min-w-[14rem]"><span class="block text-[13px] font-bold uppercase tracking-wider text-slate-700 mb-1">Previous report</span><span class="font-bold text-black leading-snug">SPRS Scores Explained: What the 110-Point Number Means at Award, and Who Checks It</span><time class="block text-[13px] font-normal text-slate-700 mt-1" datetime="2026-11-04">Nov 4, 2026</time></a>
+                <a href="../reports/2026-11-07-rfo-part-by-part-tracker.html" class="block border border-slate-300 p-4 hover:border-black flex-1 min-w-[14rem] sm:text-right"><span class="block text-[13px] font-bold uppercase tracking-wider text-slate-700 mb-1">Next report</span><span class="font-bold text-black leading-snug">RFO Part-by-Part Tracker: 53 FAR Parts, 8 Proposed Rules, 15 Parts Still Waiting</span><time class="block text-[13px] font-normal text-slate-700 mt-1" datetime="2026-11-07">Nov 7, 2026</time></a>
+            </div>
+        </div>
+        </div>
+        <aside class="lg:col-span-4 space-y-8 font-sans">
+
+            <div class="border-2 border-black p-5 bg-white shadow-sm">
+                <div class="border-b-2 border-govRed pb-2 mb-4 flex items-center justify-between gap-2">
+                    <h2 class="font-extrabold text-[13px] uppercase tracking-wider text-black">Latest Reports</h2>
+                    <span class="text-[13px] bg-red-100 text-red-800 font-bold px-2 py-0.5 rounded">Live Issue</span>
+                </div>
+                <ul class="space-y-2 text-[13px] font-semibold">
+                    <li>
+                        <a href="../reports/2026-11-10-reading-agency-procurement-forecasts.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-budget text-[13px] block font-bold mb-1 uppercase">Budget &amp; Pipeline</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                Reading Agency Procurement Forecasts: What They Promise, What They Don&#x27;t, and How Agencies Publish Them
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-10">Nov 10, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-10-how-continuing-resolutions-work.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-budget text-[13px] block font-bold mb-1 uppercase">Budget &amp; Pipeline</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                How Continuing Resolutions Work: New Starts, Funding Rates and What They Do to Awards
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-10">Nov 10, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-10-fy2027-continuing-resolution.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-budget text-[13px] block font-bold mb-1 uppercase">Budget &amp; Pipeline</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                FY2027 Is Running on a Continuing Resolution Through December 11
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-10">Nov 10, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-07-rfo-part-by-part-tracker.html" class="block bg-slate-100 hover:bg-slate-200 p-3 transition-colors">
+                            <span class="text-sec-far text-[13px] block font-bold mb-1 uppercase">FAR Overhaul</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                RFO Part-by-Part Tracker: 53 FAR Parts, 8 Proposed Rules, 15 Parts Still Waiting
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-07">Nov 7, 2026</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html" class="block bg-slate-200 hover:bg-slate-300 p-3 transition-colors border-l-4 border-l-sec-cyber" aria-current="page">
+                            <span class="text-sec-cyber text-[13px] block font-bold mb-1 uppercase">Cyber &amp; Compliance</span>
+                            <span class="text-black font-bold text-[15px] block leading-snug">
+                                SSP and POA&amp;M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule
+                            </span>
+                            <time class="text-slate-700 font-normal block mt-1" datetime="2026-11-06">Nov 6, 2026</time>
+                        </a>
+                    </li>
+                </ul>
+                <p class="mt-4 text-[13px]"><a href="../feed.xml" class="font-semibold text-govBlue hover:text-govDarkBlue hover:underline">RSS feed</a></p>
+            </div>
+
+            <div class="border border-slate-300 p-5 bg-slate-50">
+                <div class="border-b border-black pb-2 mb-4 flex items-center justify-between gap-2">
+                    <h2 class="font-extrabold text-[13px] uppercase tracking-wider text-black">Prior Executive Briefings</h2>
+                    <span class="text-[13px] text-slate-700 font-semibold">Archive</span>
+                </div>
+                <p class="text-[13px] leading-6 text-slate-800">
+                    The archive starts with this first issue, with reports dated October 11 through November 10, 2026. Earlier volumes will appear here as they are published.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 text-white p-5 rounded-none border-t-4 border-govRed">
+                <h2 class="font-extrabold text-[13px] uppercase tracking-wider text-white mb-2">
+                    LLM &amp; Executive Index
+                </h2>
+                <p class="text-[13px] leading-6 text-slate-200 mb-4">
+                    Structured indices optimized for rapid executive scans and automated document extraction. This issue includes a machine-readable summary feed and an RSS feed. No regulatory matrix file is included yet.
+                </p>
+                <div class="space-y-2 text-[13px]">
+                    <a href="../assets/summary-feed.json" class="block bg-slate-800 hover:bg-slate-700 text-white p-2 border-l-2 border-govRed font-mono text-[13px]">
+                        assets/summary-feed.json
+                    </a>
+                    <a href="../feed.xml" class="block bg-slate-800 hover:bg-slate-700 text-white p-2 border-l-2 border-govRed font-mono text-[13px]">
+                        feed.xml
+                    </a>
+                </div>
+            </div>
+
+        </aside>
+    </main>
+
+    <footer class="bg-black text-white font-sans text-[13px] py-8 border-t-4 border-govRed mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div>
+                <img src="../assets/img/govconceo-logo-footer.png" srcset="../assets/img/govconceo-logo-footer.png 1x, ../assets/img/govconceo-logo-footer@2x.png 2x" width="222" height="32" alt="GovConCEO" class="site-logo-footer">
+                <p class="text-slate-300 mt-1">Executive Intelligence &amp; Compliance Briefing for U.S. Government Contractors</p>
+            </div>
+            <div class="text-slate-300 sm:text-right">
+                <p><a href="../feed.xml" class="font-semibold text-white hover:underline">RSS</a> · <a href="../about.html" class="font-semibold text-white hover:underline">About</a></p>
+                <p>© 2026 GovConCEO. Optimized for human and AI consumption. Not legal advice.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

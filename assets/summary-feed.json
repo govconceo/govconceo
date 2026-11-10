@@ -13,10 +13,78 @@
       "url": "sections/cyber-compliance.html",
       "reports": [
         {
+          "headline": "SSP and POA&M: What Assessors Look For, Per NIST 800-171A and the CMMC Rule",
+          "date": "2026-11-06",
+          "url": "reports/2026-11-06-ssp-and-poam-what-assessors-look-for.html",
+          "dek": "The assessment objectives for the system security plan (3.12.4) and plans of action (3.12.2), the CMMC POA&M limits in 32 CFR 170.21, and what DOJ settlements say about missing plans.",
+          "wordCount": 1478,
+          "readingMinutes": 8,
+          "takeaways": [
+            "No SSP, no assessment. Under 32 CFR 170.24, the absence of an up-to-date SSP means an assessment \"could not be completed.\" The SSP (3.12.4) can never go on a CMMC POA&M.",
+            "Eight objectives for the SSP. NIST SP 800-171A breaks 3.12.4 into eight determinations, [a] through [h]. They include boundary, environment, implementation method, connections and a defined update frequency.",
+            "Three objectives for the plan of action. 800-171A asks whether deficiencies are identified, whether a plan is developed, and whether it is implemented (3.12.2[a] to [c]).",
+            "A POA&M is not a pass. 32 CFR 170.24 says a POA&M \"is not a substitute for a completed requirement.\" Unimplemented requirements are scored NOT MET.",
+            "CMMC POA&Ms are narrow. A conditional Level 2 status needs a score of at least 80% of the maximum, only 1-point items (plus non-FIPS encryption), and closeout within 180 days.",
+            "DOJ cites missing plans. MORSECORP, Raytheon/Nightwing and ILC Dover settlements all included allegations or admissions about missing or outdated SSPs. Penn State's turned on plan-of-action dates."
+          ],
+          "category": "Compliance Explainer"
+        },
+        {
+          "headline": "SPRS Scores Explained: What the 110-Point Number Means at Award, and Who Checks It",
+          "date": "2026-11-04",
+          "url": "reports/2026-11-04-sprs-scores-explained.html",
+          "dek": "How DFARS 252.204-7019, 252.204-7020 and 204.7303 use the SPRS summary score, what counts as current, and how the 110-point scale works.",
+          "wordCount": 1721,
+          "readingMinutes": 9,
+          "takeaways": [
+            "No current score, no award. DFARS 252.204-7019 says an offeror that must implement NIST SP 800-171 must have a current assessment, not more than 3 years old, to be considered for award.",
+            "The contracting officer checks. DFARS 204.7303(b) requires the contracting officer to verify the SPRS summary score before award, before exercising an option, and before extending the period of performance.",
+            "Three assessment levels. A Basic Assessment is a self-assessment with \"Low\" confidence. Medium and High Assessments are conducted by the Government and carry \"Medium\" and \"High\" confidence.",
+            "The score is a summary. The clauses ask for a summary level score such as \"95 out of 110\", plus the date a score of 110 is expected. Individual requirement values are not reported.",
+            "Scores can be negative. The CMMC scoring rule at 32 CFR 170.24 subtracts 5, 3 or 1 points per unmet requirement, \"which may result in a negative score.\" A DOJ settlement describes the range as -203 to 110.",
+            "A false score is FCA exposure. In March 2025 MORSECORP admitted it posted 104 in January 2021 when a consultant later put its score at -142. It paid $4.6 million."
+          ],
+          "category": "Compliance Explainer"
+        },
+        {
+          "headline": "Cyber Compliance Is False Claims Act Risk: 18 DOJ Cyber-Fraud Resolutions Since 2022, Totaling About $82.5 Million",
+          "date": "2026-11-03",
+          "url": "reports/2026-11-03-cyber-compliance-false-claims-act-risk.html",
+          "dek": "Every DOJ cybersecurity False Claims Act resolution found in DOJ's official press-release records since the Civil Cyber-Fraud Initiative launched in October 2021, with amounts, theories and whistleblower shares.",
+          "wordCount": 1632,
+          "readingMinutes": 9,
+          "takeaways": [
+            "18 resolutions, about $82.5 million. DOJ press releases opened for this report announce 18 cybersecurity False Claims Act resolutions from March 2022 to November 3, 2026. Together they total $82,521,106. This count may not be complete.",
+            "The pace is rising. Ten of the 18 were announced in calendar 2025 or 2026, against eight in 2022 through 2024. Nine of those ten involved DoD contracts or suppliers.",
+            "The theories repeat. Missing system security plans, unimplemented NIST SP 800-171 controls, inaccurate SPRS scores, and cloud providers that did not meet FedRAMP Moderate-equivalent rules.",
+            "Insiders bring the cases. Whistleblowers filed most of the defense cases. Shares range from $65,291 (Swiss Automation) to $2.61 million (Aerojet Rocketdyne).",
+            "Self-disclosure earns credit. DOJ gave cooperation credit to Verizon (2023), ASRC Federal (2024) and Aero Turbine and Gallant Capital (2025).",
+            "The statute bites hard. The FCA allows treble damages plus per-claim penalties of $14,308 to $28,619. \"Knowingly\" includes reckless disregard and needs no proof of intent to defraud."
+          ],
+          "category": "Enforcement Tracker"
+        },
+        {
+          "headline": "Cyber Clause Flow-Down Playbook: Which Clauses Go to Subcontractors, With What Exceptions",
+          "date": "2026-10-26",
+          "url": "reports/2026-10-26-cyber-clause-flow-down-playbook.html",
+          "dek": "Clause-by-clause flow-down rules for DFARS 252.204-7012, -7020, -7021, 252.239-7010 and FAR 52.204-21, -23, -25, -27 and -30, and how the proposed FAR Part 40 would consolidate them.",
+          "wordCount": 1543,
+          "readingMinutes": 8,
+          "takeaways": [
+            "7012 goes down \"without alteration.\" DFARS 252.204-7012(m) must be included in subcontracts for operationally critical support or involving covered defense information, including commercial subcontracts.",
+            "No sub award without a Basic Assessment. DFARS 252.204-7020(g) bars a prime from awarding a subcontract subject to 7012 unless the subcontractor has completed at least a Basic Assessment within the last 3 years.",
+            "COTS is the main exception. 7020, 7021 and FAR 52.204-21 exclude commercially available off-the-shelf (COTS) items. 7012 has no COTS carve-out in paragraph (m).",
+            "Prohibition clauses go everywhere. FAR 52.204-23, -25, -27 and -30 flow to all subcontracts, including commercial ones. FAR 52.244-6 lists them as mandatory in commercial subcontracts.",
+            "CMMC levels flow by data type. 32 CFR 170.23 sets the minimum level for a subcontractor. With Phase 2 suspended, only Level 1 (Self) and Level 2 (Self) may currently be required.",
+            "A consolidation is proposed. FAR Case 2026-001 would fold 52.204-23, -25, -27 and -30 into one clause, 52.240-3, and move 52.204-21 to 52.240-5. Nothing is final yet."
+          ],
+          "category": "Compliance Playbook"
+        },
+        {
           "headline": "CMMC Phase 2 Is Suspended: Only Level 1 and Level 2 Self-Assessments May Be Required",
-          "date": "2026-11-10",
+          "date": "2026-10-18",
           "url": "reports/2026-11-10-cmmc-phase-2-suspended.html",
-          "dek": "A July 13, 2026 memo suspends advancement to CMMC Phase 2, which had been scheduled for November 10, 2026. Only Level 1 (Self) or Level 2 (Self) may be required. NIST SP 800-171 Rev 2 duties under DFARS 252.204-7012 remain in effect.",
+          "dek": "Oct 18, 2026: CMMC Phase 2 is suspended. Only Level 1 and Level 2 self-assessments may be required. NIST SP 800-171 Rev 2 duties under DFARS 252.204-7012 remain in effect.",
           "wordCount": 1589,
           "readingMinutes": 8,
           "takeaways": [
@@ -25,7 +93,26 @@
             "Amend and modify. Contracting officers must amend active solicitations and must modify existing contracts before the next option period or the next administrative modification. The memo states that waivers are not available during the review.",
             "7012 still applies. NIST SP 800-171 Revision 2 requirements under DFARS 252.204-7012 remain in effect and are to be enforced through self-assessments and selected government-led assessments.",
             "2028 clause dates remain. The published DFARS text at 204.7504, effective May 7, 2026, still sets later dates for use of clause 252.204-7021, including November 10, 2028, for contractor systems that will process, store, or transmit FCI or CUI (with a COTS exception). The official sources opened for this report do not show that text as superseded."
-          ]
+          ],
+          "category": "Regulatory Enforcement"
+        },
+        {
+          "headline": "DFARS 7012 Incident Reporting: The 72-Hour Clock, the 90-Day Hold, and Day-One Actions",
+          "date": "2026-10-16",
+          "url": "reports/2026-10-16-dfars-7012-incident-reporting-72-hours.html",
+          "dek": "What DFARS 252.204-7012 requires when a cyber incident hits covered defense information: review, report to DIBNet within 72 hours, submit malware to DC3, preserve images for 90 days, and pass the report number up the chain.",
+          "wordCount": 1467,
+          "readingMinutes": 8,
+          "takeaways": [
+            "72 hours from discovery. DFARS 252.204-7012 defines \"rapidly report\" as \"within 72 hours of discovery of any cyber incident.\" Reports go to DoD at dibnet.dod.mil.",
+            "You need a certificate first. Reporting requires a DoD-approved medium assurance certificate. Get one before an incident, not during it.",
+            "Preserve for 90 days. Images of affected systems and relevant monitoring and packet-capture data must be kept at least 90 days from the report.",
+            "Malware goes to DC3, not the contracting officer. The clause says so in plain terms.",
+            "A report is not an admission. DFARS 204.7302(d) says a reported incident \"shall not, by itself\" be read as evidence of inadequate security.",
+            "Subs report too. Under 7012(m), subcontractors must give the DoD-assigned incident report number to the prime or next higher tier.",
+            "A FAR-wide 72-hour rule is proposed. FAR Case 2026-001 would set 72 hours for CUI incidents governmentwide, with non-DoD reports going to CISA. The January 2025 version had proposed 8 hours. Neither is final."
+          ],
+          "category": "Compliance Playbook"
         }
       ]
     },
@@ -36,10 +123,27 @@
       "url": "sections/far-overhaul.html",
       "reports": [
         {
+          "headline": "RFO Part-by-Part Tracker: 53 FAR Parts, 8 Proposed Rules, 15 Parts Still Waiting",
+          "date": "2026-11-07",
+          "url": "reports/2026-11-07-rfo-part-by-part-tracker.html",
+          "dek": "Where every FAR part stands in the Revolutionary FAR Overhaul as of Nov 7, 2026: model deviation date, latest update, proposed rule, and comment deadline.",
+          "wordCount": 1903,
+          "readingMinutes": 10,
+          "takeaways": [
+            "Deviations first, rules second. Every active FAR part has a model deviation text on Acquisition.gov, issued between May 2, 2025 and Oct 28, 2025. Eleven have been updated since, most recently Jul 1, 2026 (Parts 16 and 52).",
+            "8 of 12 proposed rules are out. The FAR Council says it \"is issuing twelve proposed rules.\" Eight have been published: four on Jun 23, 2026 and four on Sep 18, 2026.",
+            "15 parts have no proposed rule yet. They are Parts 11, 19, 22, 23, 25, 30, 31, 32, 34, 42, 43, 45, 46, 48 and 50. That covers small business, labor, cost principles, contract financing and administration.",
+            "All comment periods have closed. The Jun 23 rules closed Jul 23, 2026 and the Sep 18 rules closed Oct 19, 2026.",
+            "Paperwork comments remain open. PRA notices for Cases 2026-006, -010 and -011 accept comments through Nov 23, 2026.",
+            "No final rule yet. No final RFO rule was found in the Federal Register as of Nov 7, 2026. The model deviations, as adopted by each agency, remain the operative text."
+          ],
+          "category": "FAR Tracker"
+        },
+        {
           "headline": "Revolutionary FAR Overhaul Enters Formal Rulemaking, With No Final Rules Yet",
-          "date": "2026-11-10",
+          "date": "2026-11-01",
           "url": "reports/2026-11-10-far-overhaul-formal-rulemaking.html",
-          "dek": "The FAR Council is issuing twelve proposed rules to streamline the FAR. Eight have been published (June 23 and September 18, 2026); both comment periods have closed. No final rules were located. Part 19 is not among the eight published cases.",
+          "dek": "Nov 1, 2026: Eight of twelve Revolutionary FAR Overhaul proposed rules have been published. Comment periods have closed. No final rules were located. Part 19 has not been proposed.",
           "wordCount": 1622,
           "readingMinutes": 9,
           "takeaways": [
@@ -49,7 +153,76 @@
             "Case 2026-003 would change source selection. The September 18 proposed rule would formally recognize “highest technically rated with a fair and reasonable price,” would let contracting officers accept late proposals when they determine that doing so is in the Government’s best interest and would not unduly delay award, and would remove the commercial “omnibus” provision and clause at FAR 52.212-3 and 52.212-5.",
             "Case 2026-011 would rewrite data rights. It would delete FAR subpart 27.4, Rights in Data and Copyrights, and replace it with DFARS-derived data-rights coverage, including a new subpart 27.5 for commercial technical data and software.",
             "Companion 3.0 is guidance, not a rule. The FAR Companion, Version 3.0, was posted on Acquisition.gov on October 30, 2026. It is nonregulatory guidance, not a final FAR rule."
-          ]
+          ],
+          "category": "FAR Modernization"
+        },
+        {
+          "headline": "Bid Protests Under the New FAR: What Changes at the Agency, What Stays at GAO and the Court of Federal Claims",
+          "date": "2026-10-27",
+          "url": "reports/2026-10-27-bid-protests-under-the-new-far.html",
+          "dek": "FAR Case 2026-001 rewrites FAR Part 33 with a purpose statement, an incumbent-protest finding and more disclosure in agency protests, while GAO's statute and 4 CFR part 21 rules stay in place. Includes GAO's FY2025 protest statistics.",
+          "wordCount": 1640,
+          "readingMinutes": 9,
+          "takeaways": [
+            "Part 33 gets a purpose statement. Proposed FAR 33.100 says protests are not a substitute for debriefings. It says incumbents \"should not use protests as a way to disrupt transition or induce contract extensions\" without sufficient grounds.",
+            "Contracting officers would document incumbent protests. Proposed 33.103(e) calls for a finding when an incumbent's protest disrupts transition or induces an extension.",
+            "Agency protests get more disclosure. On independent review, a protester could get redacted copies of its final technical evaluation and the source selection decision, and add grounds.",
+            "GAO rules are untouched. The FAR would point to 4 CFR part 21 instead of restating it. The 10-day filing rules, the 100-day decision deadline and the statutory stay come from GAO's rules and 31 U.S.C. 3553, not the FAR.",
+            "COFC is largely outside Part 33. Proposed 33.101(b) says the subpart, except 33.100 and 33.103(c), does not apply where the Court of Federal Claims has jurisdiction.",
+            "GAO's FY2025 numbers. 1,688 cases filed (down 6%), a 14% sustain rate and a 52% effectiveness rate."
+          ],
+          "category": "FAR Analysis"
+        },
+        {
+          "headline": "\"Meaningful Negotiations\" vs. \"Discussions\": What the FAR Part 15 Rewrite Changes in Competitive Range Exchanges",
+          "date": "2026-10-22",
+          "url": "reports/2026-10-22-meaningful-negotiations-vs-discussions.html",
+          "dek": "How FAR Case 2026-003 and the model Part 15 deviation replace \"discussions\" with \"negotiation,\" redefine \"deficiency,\" widen clarifications, and allow further negotiation with one offeror. Side-by-side with current FAR 15.306.",
+          "wordCount": 1500,
+          "readingMinutes": 8,
+          "takeaways": [
+            "\"Discussions\" becomes \"negotiation.\" FAR Case 2026-003 would revise Part 15 \"by focusing on negotiation instead of discussions.\" It adds a definition: an exchange that gives the offeror a chance to revise its proposal.",
+            "The floor stays. The preamble says the rule \"still requires a meaningful negotiation with each offeror in the competitive range.\" At a minimum, deficiencies and significant weaknesses must be addressed.",
+            "Equal rounds are no longer required. Proposed 15.204-2(b)(2) lets the contracting officer negotiate further with one offeror without doing so with others.",
+            "\"Deficiency\" gets narrower and more objective. It would mean a part of a proposal that \"does not conform to a material term\" of the RFP. A \"combination of significant weaknesses\" would drop out of the definition.",
+            "Clarifications widen. They could happen at any time from receipt of proposals through award, with one offeror only. They could address perceived deficiencies and adverse past performance, but not change price or material elements.",
+            "Much of this is already in use. The model Part 15 deviation on Acquisition.gov, issued Sep 30, 2025, already contains the \"further negotiate\" text."
+          ],
+          "category": "FAR Analysis"
+        },
+        {
+          "headline": "Commercial Buys Without 52.212-3 and 52.212-5: The Government Picks the Clauses, and Off-List Clauses Need a Deviation",
+          "date": "2026-10-21",
+          "url": "reports/2026-10-21-commercial-buys-after-52-212-3-and-5.html",
+          "dek": "FAR Case 2026-003 would remove the commercial omnibus provision and clause, shift clause selection to the Government, require a deviation for unlisted clauses, and fold simplified procedures up to $9 million into Part 12.",
+          "wordCount": 1281,
+          "readingMinutes": 7,
+          "takeaways": [
+            "The omnibus pair goes. FAR Case 2026-003 would remove 52.212-3 (Offeror Representations and Certifications) and 52.212-5 (statutes and executive orders). The preamble says they \"provide incomplete lists.\"",
+            "The Government carries the burden. The rule \"would also shift the burden of determining which provisions and clauses ... are applicable ... from the offeror or contractor to the Government.\"",
+            "Off-list clauses need a deviation. Adding a clause not prescribed for commercial buys would require an individual or class deviation under FAR Part 1. Today, FAR 12.301(d) gives contracting officers broad discretion.",
+            "Three clauses stay. 52.212-1, -2 and -4 remain, streamlined. The Comptroller General audit clause in 52.212-5(d) moves to 52.212-4(t).",
+            "Part 12 becomes a one-stop shop. Simplified procedures for commercial buys up to $9 million ($15 million for specified emergencies) and micro-purchase rules move into Part 12.",
+            "Annual reps change too. FAR Case 2026-001 would remove 52.204-8. Only entity-level reps would stay in SAM; procurement-specific ones would move into solicitations."
+          ],
+          "category": "FAR Analysis"
+        },
+        {
+          "headline": "Small Business and FAR Part 19: Deviation in Force, No Proposed Rule Yet, and Three SBA Rules Moving",
+          "date": "2026-10-15",
+          "url": "reports/2026-10-15-small-business-and-far-part-19.html",
+          "dek": "Where FAR Part 19 stands in the overhaul: the model deviation and GSA's supplement, the rule of two, order set-asides \"not a basis for protest,\" and SBA's 8(a), program-wide and size-standard rulemakings. Size-standard comments are due Nov 20, 2026.",
+          "wordCount": 1467,
+          "readingMinutes": 8,
+          "takeaways": [
+            "No proposed rule for Part 19. Part 19 is not in any of the eight published Revolutionary FAR Overhaul proposed rules. The operative overhaul text is the model deviation, issued Sep 26, 2025 and updated Feb 20, 2026.",
+            "The rule of two is stated plainly. Model 19.104-1(a) says that above the micro-purchase threshold, the contracting officer \"must set the contract aside\" when two or more competitive, responsible small businesses are expected to offer.",
+            "Order set-asides are discretionary and not protestable on that basis. Model 19.111-2 lets contracting officers set aside orders under multiple-award contracts at their discretion. The decision \"is ... not a basis for protest.\"",
+            "eSRS is gone. GSA's supplement says eSRS.gov was decommissioned Feb 20, 2026 and subcontract reporting moved to SAM.gov. The Individual Subcontract Report deadline went from 30 to 45 days.",
+            "SBA changed 8(a). A final rule effective Sep 10, 2026 removes the presumption of social disadvantage for individually owned firms. Entity-owned firms are unaffected.",
+            "Size standards are open for comment. SBA proposed new size standards for 338 industries. Comments close Nov 20, 2026 ."
+          ],
+          "category": "FAR Analysis"
         }
       ]
     },
@@ -60,10 +233,43 @@
       "url": "sections/budget-pipeline.html",
       "reports": [
         {
+          "headline": "Reading Agency Procurement Forecasts: What They Promise, What They Don't, and How Agencies Publish Them",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-reading-agency-procurement-forecasts.html",
+          "dek": "A narrowed, source-checked guide to federal procurement forecasts: the legal basis agencies cite, what GSA's governmentwide Forecast of Contracting Opportunities tool contains and disclaims, and how four agencies actually publish and update their forecasts.",
+          "wordCount": 1123,
+          "readingMinutes": 6,
+          "takeaways": [
+            "Forecasts are planning tools, not commitments. GSA says its governmentwide FCO tool \"is for information and planning purposes only\" and \"does not commit the government to purchase.\"",
+            "The legal basis agencies cite is a 1988 law. Interior and State both trace their forecasts to Public Law 100-656, which requires agencies to publish projections of opportunities that small firms may be able to perform.",
+            "Acquisition.gov lists 22 agency forecast pages. Publishing practices differ widely across them.",
+            "Update schedules differ. DOE updates its HQ forecast monthly (latest Oct 6, 2026). State posted a mid-year FY2026 update on Aug 20, 2026. Interior's page still shows its FY2025 forecast.",
+            "The solicitation is what counts. GSA says final decisions on competition, small business participation and value are made \"if and when a solicitation is posted to SAM.gov.\""
+          ],
+          "category": "Budget Explainer"
+        },
+        {
+          "headline": "How Continuing Resolutions Work: New Starts, Funding Rates and What They Do to Awards",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-how-continuing-resolutions-work.html",
+          "dek": "The mechanics of the FY2027 continuing resolution (P.L. 119-103), clause by clause: the funding rate, the new-start ban, the DoD production limits, the \"most limited funding action\" rule, anomalies, and the FAR tools contracting officers use during a CR.",
+          "wordCount": 1275,
+          "readingMinutes": 7,
+          "takeaways": [
+            "A CR funds last year's activities at last year's rate. P.L. 119-103 Sec. 101 continues FY2026 projects and activities \"at a rate for operations\" set by the FY2026 appropriations acts, under the same conditions.",
+            "No new starts. Sec. 104 bars using CR funds to \"initiate or resume\" any project or activity that had no FY2026 funding.",
+            "DoD has tighter limits. Sec. 102 bars new production, production-rate increases and new multiyear procurements using economic order quantity advance funding.",
+            "Agencies must spend cautiously. Sec. 110 requires \"only the most limited funding action\" needed to continue projects and activities.",
+            "Anomalies are the exceptions. Specific sections override the new-start rules, such as $2.853 billion for DoD National Security Systems (Sec. 127).",
+            "It expires Dec 11, 2026 unless a full-year bill or another CR is enacted first (Sec. 106)."
+          ],
+          "category": "Budget Explainer"
+        },
+        {
           "headline": "FY2027 Is Running on a Continuing Resolution Through December 11",
           "date": "2026-11-10",
           "url": "reports/2026-11-10-fy2027-continuing-resolution.html",
-          "dek": "Public Law 119-103 funds FY2027 at a continuing-resolution rate from October 1 through December 11, 2026. The White House requested $1.1 trillion in base discretionary authority for the Department of War plus $350 billion in mandatory reconciliation resources. The House passed the FY2027 NDAA on July 22, 216–212; that vote is not an appropriations law.",
+          "dek": "Nov 10, 2026: FY2027 is running on a continuing resolution (P.L. 119-103) through December 11. No regular appropriations act was located. The House passed the FY2027 NDAA 216–212 on July 22.",
           "wordCount": 1505,
           "readingMinutes": 8,
           "takeaways": [
@@ -72,7 +278,58 @@
             "The $1.5 trillion figure is a request. The White House’s Fiscal Year 2027 Topline fact sheet requests $1.5 trillion in total budgetary resources for 2027 defense, including $1.1 trillion in base discretionary budget authority for the Department of War and $350 billion in additional mandatory resources through reconciliation.",
             "The House-passed NDAA authorizes; it does not appropriate. The House passed H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027, on July 22, 2026, by 216–212 (Clerk of the House, Roll Call 278).",
             "The $87.6 billion supplemental is also a request. On June 24, 2026, the OMB Director transmitted a request for $87.6 billion in supplemental funding, including $67.1 billion for the Department of War. This report treats that document as a request, not as enacted funding."
-          ]
+          ],
+          "category": "Market Intelligence"
+        },
+        {
+          "headline": "Defense vs. Civilian in the FY2027 Request: Defense Up 42.1%, Non-Defense Down 10.0%",
+          "date": "2026-10-28",
+          "url": "reports/2026-10-28-defense-vs-civilian-fy2027-request.html",
+          "dek": "Agency-by-agency comparison of the President's FY2027 discretionary request with FY2026 enacted levels, read straight from OMB's Table S-3. Requested numbers are proposals, not appropriations. Not financial advice.",
+          "wordCount": 1052,
+          "readingMinutes": 6,
+          "takeaways": [
+            "Defense function 050 rises $445.4 billion (+42.1%). It goes from $1,058.2 billion enacted in FY2026 to $1,503.5 billion requested for FY2027 in base budget authority, including mandatory resources.",
+            "Non-defense falls $73.4 billion (−10.0%). It goes from $733.5 billion to $660.1 billion.",
+            "Part of the defense increase is mandatory, not appropriated. The War line \"includes mandatory resources.\" OMB notes a proposed \"additional $350 billion in mandatory funding for DOW.\"",
+            "Seven lines grow. War, Justice, NNSA, VA, Transportation, DOE overall and GSA.",
+            "The deepest percentage cuts are at SBA (−67.2%), NSF (−54.7%), EPA (−52.4%), State and International (−30.4%), the Corps of Engineers (−28.3%), Labor (−25.9%) and NASA (−23.0%).",
+            "This is a request. FY2027 is running on a CR at FY2026 rates through Dec 11, 2026 (P.L. 119-103)."
+          ],
+          "category": "Budget Analysis"
+        },
+        {
+          "headline": "Year-End Spending: September Alone Was 19.5% of FY2025 Contract Obligations",
+          "date": "2026-10-24",
+          "url": "reports/2026-10-24-year-end-q4-spending.html",
+          "dek": "Three fiscal years of USAspending contract obligations by month show a growing fourth-quarter surge. This report sets the data next to the rules that shape it: bona fide need, severable-service authority, the Antideficiency Act and DoD's 20 percent limit on the last two months. Narrowed to FY2023–FY2025. Not financial advice.",
+          "wordCount": 1182,
+          "readingMinutes": 6,
+          "takeaways": [
+            "The fourth quarter keeps getting bigger. July–September made up 32.7% of governmentwide contract obligations in FY2023, 35.7% in FY2024 and 37.9% in FY2025.",
+            "September is the peak. It accounted for $161.9 billion (19.5%) of FY2025's $828.6 billion. That is more than double July ($75.2 billion) or August ($77.1 billion).",
+            "DoD follows the same pattern. Its Q4 share rose from 35.5% (FY2024) to 37.3% (FY2025). September FY2025 was $105.6 billion, or 19.5% of DoD's year.",
+            "The law permits a surge but sets limits. Annual funds must meet a need of that year (31 U.S.C. 1502). Severable services may run up to 12 months across years (41 U.S.C. 3902; 10 U.S.C. 3133).",
+            "DoD has a 20% rule for the last two months. It applies to its one-year funds (P.L. 119-75, Div. A, Sec. 8004). Aggregate USAspending data cannot test compliance with it."
+          ],
+          "category": "Budget Analysis"
+        },
+        {
+          "headline": "Agency Reorganizations and Your Contracts: Five Executive Orders in Force, a Budget Full of Proposals",
+          "date": "2026-10-13",
+          "url": "reports/2026-10-13-agency-reorganizations-and-contract-impact.html",
+          "dek": "What has actually been ordered (EOs 14222, 14240, 14242, 14372, 14402) versus what the FY2027 Budget only proposes (USDA hubs, the U.S. Wildland Fire Service, HHS's Administration for a Healthy America, DHS consolidation, OCTAE to Labor), and what each means for contract scope, buying offices and pricing.",
+          "wordCount": 1405,
+          "readingMinutes": 8,
+          "takeaways": [
+            "Separate orders from proposals. Five executive orders below are in effect as signed. The FY2027 reorganizations are Budget proposals that need appropriations or other action.",
+            "Buying is moving to GSA. EO 14240 directs consolidation of common goods and services procurement, about $490 billion a year, at GSA.",
+            "Cost-type contracts need a written justification. EO 14402 makes fixed price the default. Agency heads must approve non-fixed-price contracts above $100 million (War), $35 million (NASA), $25 million (DHS) and $10 million (other agencies).",
+            "Existing contracts were and are being reviewed. EO 14222 ordered a 30-day review to \"terminate or modify\" covered contracts. EO 14402 targets each agency's 10 largest non-fixed-price contracts.",
+            "Defense primes face a new clause. EO 14372 directs a contract provision barring buybacks and distributions during periods of underperformance.",
+            "The budget proposes structural moves. These include USDA hubs, wildland fire unified at Interior, CWMD into CISA, and career and technical education moved to Labor."
+          ],
+          "category": "Budget Analysis"
         }
       ]
     },
@@ -83,20 +340,102 @@
       "url": "sections/ai-advanced-tech.html",
       "reports": [
         {
+          "headline": "Post-Quantum Deadlines Are Set: 2030 for Key Exchange, 2031 for Signatures, and a FAR Rule Due by December 19",
+          "date": "2026-10-29",
+          "url": "reports/2026-10-29-post-quantum-2030-readiness.html",
+          "dek": "A contractor rule is coming. Executive Order 14412 directs the FAR Council to propose, within 180 days of June 22, 2026 (by December 19, 2026), a rule requiring covered contractors to comply with NIST FIPS, including PQC standards, by December 31, 2030. ”Covered contractor” is not yet defined.",
+          "wordCount": 1660,
+          "readingMinutes": 9,
+          "takeaways": [
+            "A contractor rule is coming. Executive Order 14412 directs the FAR Council to propose, within 180 days of June 22, 2026 (by December 19, 2026), a rule requiring covered contractors to comply with NIST FIPS, including PQC standards, by December 31, 2030.",
+            "”Covered contractor” is not yet defined. The order does not define the term. The proposed rule will decide who is in scope. A Federal Register searched on October 29, 2026 found no such proposed rule yet.",
+            "Agency deadlines drive purchases now. High value assets and high impact systems must use PQC for key establishment by December 31, 2030, and for digital signatures by December 31, 2031. National security systems are excluded from this part of the order.",
+            "Buy-side rules already apply. OMB M-26-15 tells agencies that product requirements in CISA’s listed categories should include PQC integration. CISA says agencies should buy only PQC-capable products in categories where they are widely available.",
+            "NIST set the sunset. NIST IR 8547 (final, October 2026) deprecates quantum-vulnerable public-key cryptography after 2030 and disallows it after 2035."
+          ],
+          "category": "Post-Quantum Cryptography"
+        },
+        {
+          "headline": "No Federal Rule Bans AI-Written Bids. What the Official Record Says About Using AI on Proposals",
+          "date": "2026-10-25",
+          "url": "reports/2026-10-25-ai-in-proposals.html",
+          "dek": "The FAR is silent. The current FAR on Acquisition.gov (FAC 2026-01) does not use the term “artificial intelligence” in Parts 4, 9, 12, 15, 25, 27, 39, 44 or 52. The DFARS parts reviewed (225, 227, 252) do not use it either. No government-wide rule permits or prohibits AI-drafted proposals.",
+          "wordCount": 1466,
+          "readingMinutes": 8,
+          "takeaways": [
+            "The FAR is silent. The current FAR on Acquisition.gov (FAC 2026-01) does not use the term “artificial intelligence” in Parts 4, 9, 12, 15, 25, 27, 39, 44 or 52. The DFARS parts reviewed (225, 227, 252) do not use it either. No government-wide rule permits or prohibits AI-drafted proposals.",
+            "Rules come solicitation by solicitation. OMB M-25-22 tells agencies to decide whether a solicitation should require disclosure of AI use in contract performance. Check Sections L and M and the instructions of every solicitation.",
+            "NASA asks for disclosure. NASA’s unsolicited-proposal guidebook, revised September 2026, requires proposers to say whether the work involves AI or machine learning, including generative AI. It warns against putting restricted proposal content into public AI tools.",
+            "GAO is warning about fabricated citations. In Bramstedt Surgical (B-424064, January 28, 2026), GAO said inaccurate case citations bore “the hallmarks” of unverified AI use. It warned that future filings with non-existent citations may lead to sanctions.",
+            "Grants differ from contracts. NIH, a grants program rather than a FAR procurement, will not treat applications substantially developed by AI as the applicant’s original ideas."
+          ],
+          "category": "AI & Proposals"
+        },
+        {
+          "headline": "Who Owns the Data, the Model and the Outputs? How Federal Rules Split Rights in AI Contracts",
+          "date": "2026-10-20",
+          "url": "reports/2026-10-20-ai-data-rights.html",
+          "dek": "Government data stays government. OMB tells agencies to retain rights to federal data and to improvements to it. GSA’s LLM clause states that the Government owns all Government Data, meaning both inputs and outputs, and all Custom Developments. Your model stays yours. Under GSAR 552.",
+          "wordCount": 1765,
+          "readingMinutes": 9,
+          "takeaways": [
+            "Government data stays government. OMB tells agencies to retain rights to federal data and to improvements to it. GSA’s LLM clause states that the Government owns all Government Data, meaning both inputs and outputs, and all Custom Developments.",
+            "Your model stays yours. Under GSAR 552.239-7001, the contractor keeps ownership of the underlying LLM, base models and Background Data. The Government gets a royalty-free licence to use the LLM, limited to the duration and scope of the work.",
+            "Fine-tunes belong to the job. Custom Developments include changes made through training or fine-tuning for the Government. At the end of the contract, fine-tuned weights, embeddings, indexes and caches must be deleted unless the contracting officer directs otherwise.",
+            "No training on agency data. OMB M-25-22 requires contracts to permanently prohibit using non-public agency inputs and outputs to further train commercial AI without explicit agency consent. The GSA clause lists training and fine-tuning as prohibited uses.",
+            "The FAR itself is silent on AI. FAR 12.212 still says commercial software is bought under licences customarily provided to the public. A September 18, 2026 proposed rule would replace FAR Subpart 27.4 with DFARS-style data-rights rules; comments closed October 19, 2026."
+          ],
+          "category": "AI Procurement"
+        },
+        {
+          "headline": "GSA’s LLM Clause, Line by Line: What GSAR 552.239-7001 Requires and Why It Overrides Your Terms of Service",
+          "date": "2026-10-19",
+          "url": "reports/2026-10-19-gsar-llm-clause-line-by-line.html",
+          "dek": "It beats your terms of service. The clause is incorporated into the “schedule of supplies/services,” the top of the commercial order of precedence. If it conflicts with a vendor’s terms of service, click-wrap or licence, the clause takes precedence. Narrow trigger, self-deleting.",
+          "wordCount": 2016,
+          "readingMinutes": 11,
+          "takeaways": [
+            "It beats your terms of service. The clause is incorporated into the “schedule of supplies/services,” the top of the commercial order of precedence. If it conflicts with a vendor’s terms of service, click-wrap or licence, the clause takes precedence.",
+            "Narrow trigger, self-deleting. It applies when GSA buys a system where LLM functionality is a material feature and Government Data goes in or comes out. It imposes no obligation for a contractor’s internal back-office AI or for incidental AI features the Government does not require, access or feed data to.",
+            "Effective dates. RGO-2026-01’s Attachment A lists GSAR Part 539, which tells contracting officers when to use the clause, as effective March 16, 2026. It lists Part 552, which holds the clause text, as effective October 19, 2026.",
+            "Seven clocks to track. The clause sets notice periods of 72 hours, 5 business days, 7 calendar days, 30 days and 120 days. It also requires logs to be kept for 90 days.",
+            "Capped exit liability. If GSA terminates for cause after written notice and a failure to fix, the contractor owes reasonable decommissioning costs. These are capped at 25% of the affected order and exclude re-procurement costs."
+          ],
+          "category": "AI Procurement"
+        },
+        {
           "headline": "GSA’s LLM Clause Sets Data-Use Rules; OMB Rescinds a Software Attestation Mandate and Sets 2030 Cryptography Targets",
-          "date": "2026-11-10",
+          "date": "2026-10-17",
           "url": "reports/2026-11-10-ai-procurement-rules.html",
-          "dek": "GSA’s GSAR 552.239-7001 deviation sets ownership, training, notice, and liability rules for LLM buys that process Government Data. OMB M-26-05 rescinds the governmentwide secure-software attestation mandate. EO 14412 directs a FAR proposed rule, due December 19, 2026, that would require covered contractors to meet NIST FIPS, including post-quantum algorithms, by December 31, 2030.",
+          "dek": "Oct 17, 2026: GSA’s LLM clause sets data-use and diligence rules. OMB M-26-05 rescinds the governmentwide secure-software attestation mandate. EO 14412 directs a FAR proposed rule by December 19, 2026, with a December 31, 2030 contractor FIPS date.",
           "wordCount": 2290,
           "readingMinutes": 12,
           "takeaways": [
             "GSA LLM clause. GSA class deviation RGO-2026-01, signed January 15, 2026, includes GSAR 552.239-7001 (GSAR Deviation) (Sept 2026). The clause applies when the Government is procuring an LLM or similar system in which LLM functionality is a material feature and Government Data will be submitted directly to, or produced by, the LLM, with stated exceptions for qualifying internal tools and incidental or ancillary use.",
             "Core clause duties. The official clause text requires notice to the contracting officer within 72 hours after the contractor obtains actual knowledge of a material violation; prohibits using Government Data to train, fine-tune, or otherwise improve an LLM; retains Government ownership of Government Data and custom developments; and caps decommissioning-cost liability at 25 percent of the value of the affected task or delivery order when the Government terminates for cause after written notice and a failure to remediate.",
-            "Refresh 34 plan. Official GSA Refresh 34 Q&amp;A restates when 552.239-7001 applies and states that GSA plans to issue Refresh 34 on November 12, 2026. The opened Q&amp;A does not state a 90-day acceptance window.",
+            "Refresh 34 plan. Official GSA Refresh 34 Q&A restates when 552.239-7001 applies and states that GSA plans to issue Refresh 34 on November 12, 2026. The opened Q&A does not state a 90-day acceptance window.",
             "Software attestation mandate rescinded. OMB Memorandum M-26-05, January 23, 2026, rescinds M-22-18 and M-23-16. Agencies may choose to use the governmentwide Secure Software Development Attestation Form; they are no longer under that prior governmentwide mandate. They may also require a software bill of materials upon request.",
             "Unbiased AI clause content. OMB Memorandum M-26-04 directs agencies to include contractual requirements addressing the Unbiased AI Principles in LLM solicitations and orders issued after the memorandum, and to update procurement policies no later than March 11, 2026. The memorandum sunsets two years after issuance unless OMB provides otherwise.",
             "Post-quantum FAR proposal due Dec 19. Executive Order 14412 of June 22, 2026, directs the FAR Council, within 180 days of the order (December 19, 2026), to publish a proposed FAR rule requiring covered contractors to comply by December 31, 2030, with NIST FIPS, including FIPS that incorporate post-quantum cryptography algorithms. OMB Memorandum M-26-15 sets a December 31, 2030 objective for agencies’ prioritized migration of cryptographic systems they own or operate, and requires TLS 1.3 or a successor no later than January 2, 2030. That memorandum does not apply to national security systems."
-          ]
+          ],
+          "category": "AI Procurement"
+        },
+        {
+          "headline": "Three OMB Memos Set the Terms for Selling AI to Civilian Agencies. Here Is What Vendors Must Deliver",
+          "date": "2026-10-14",
+          "url": "reports/2026-10-14-omb-ai-memos-vendor-obligations.html",
+          "dek": "Three memos govern. OMB M-25-21 (use and risk management) and M-25-22 (acquisition), both dated April 3, 2025, and M-26-04 (Unbiased AI Principles for LLMs), dated December 11, 2025, set the federal civilian baseline for AI contracts. All three are listed on OMB’s memoranda page as of October 14, 2026.",
+          "wordCount": 1656,
+          "readingMinutes": 9,
+          "takeaways": [
+            "Three memos govern. OMB M-25-21 (use and risk management) and M-25-22 (acquisition), both dated April 3, 2025, and M-26-04 (Unbiased AI Principles for LLMs), dated December 11, 2025, set the federal civilian baseline for AI contracts. All three are listed on OMB’s memoranda page as of October 14, 2026.",
+            "Already in contracts. M-25-22 applies to contracts awarded under solicitations issued on or after the date 180 days after April 3, 2025, and to options exercised after that date.",
+            "No training on agency data. Agencies must ensure contracts permanently prohibit using non-public agency inputs and outputs to further train publicly or commercially available AI, absent explicit agency consent.",
+            "Testing access is a term, not a favor. Vendors must give agencies the access and time needed for independent evaluation. Contracts must not bar agencies from internally disclosing how vendors test or what the results were.",
+            "LLM documentation is a minimum. Under M-26-04, LLM solicitations must request an acceptable use policy, model, system or data cards, end-user resources and a feedback mechanism. Agencies should make these requirements material to payment.",
+            "Incidental use is out of scope. AI that a contractor uses at its own option, when not required to fulfil the contract, is excluded from M-25-22 and M-26-04."
+          ],
+          "category": "AI Procurement"
         }
       ]
     },
@@ -107,10 +446,26 @@
       "url": "sections/supply-chain.html",
       "reports": [
         {
+          "headline": "Vetting Sub-Tier Suppliers: A Prime Contractor’s Checklist Built From the Clauses That Already Apply",
+          "date": "2026-11-02",
+          "url": "reports/2026-11-02-subtier-supplier-due-diligence-checklist.html",
+          "dek": "The prime owns subcontractor responsibility. FAR 9.104-4 says prospective primes are generally responsible for determining the responsibility of their prospective subcontractors. A weak subcontractor can affect the Government’s view of the prime. Exclusions check above $45,000. FAR 52.",
+          "wordCount": 1416,
+          "readingMinutes": 8,
+          "takeaways": [
+            "The prime owns subcontractor responsibility. FAR 9.104-4 says prospective primes are generally responsible for determining the responsibility of their prospective subcontractors. A weak subcontractor can affect the Government’s view of the prime.",
+            "Exclusions check above $45,000. FAR 52.209-6 bars subcontracts above $45,000 with debarred, suspended or proposed-for-debarment firms, other than for COTS items, absent a compelling reason. It requires written disclosure from each such subcontractor.",
+            "Security bans flow to commercial subs. FAR 52.244-6 makes primes flow down Kaspersky, Section 889, ByteDance and FASCSA clauses even in commercial subcontracts. FAR 52.204-21 safeguarding also flows down where subcontractors hold federal contract information, other than for COTS items.",
+            "DoD adds more. DFARS clauses add flowdowns for covered defense information, CMMC status, electronic-parts sourcing and covered materials, each with its own trigger.",
+            "More is coming. EO 14415 will require written vetting for financial, foreign-ownership and manufacturing risk on defense supply chains. Its policy is due January 16, 2027."
+          ],
+          "category": "Supplier Vetting"
+        },
+        {
           "headline": "Defense Supply-Chain Waivers Tighten on January 1, as FASCSA Orders Hit DeepSeek and Acronis",
-          "date": "2026-11-10",
+          "date": "2026-10-31",
           "url": "reports/2026-11-10-supply-chain-due-diligence.html",
-          "dek": "EO 14415 directs that most new 10 U.S.C. 4872(c)(1) waivers cease on January 1, 2027, except as the order provides, and requires all-tier supply-chain mapping policy by January 16, 2027. DHS FASCSA orders require immediate exclusion of DeepSeek products and, for Acronis, removal from covered systems by January 27, 2027.",
+          "dek": "Oct 31, 2026: EO 14415 tightens 10 U.S.C. 4872 waivers as of January 1, 2027, and directs all-tier mapping policy by January 16, 2027. DHS FASCSA orders cover DeepSeek and Acronis products.",
           "wordCount": 2387,
           "readingMinutes": 12,
           "takeaways": [
@@ -120,7 +475,72 @@
             "Acronis removal clock. DHS Exclusion and Removal Order #2026-02 (released July 31, 2026; notice at 91 FR 68528, October 30, 2026) requires immediate exclusion of Acronis covered articles and removal from agency information systems — including contractor-operated federal systems — by January 27, 2027, or an exception.",
             "Buy American content. FAR Part 25, as published on Acquisition.gov, sets the Buy American domestic-content test at 65 percent for items delivered in calendar years 2024 through 2028 and 75 percent for items delivered starting in calendar year 2029.",
             "DHS PPE rule. DHS issued a final HSAR rule on Make PPE in America Act restrictions, effective October 19, 2026 (91 FR 59066)."
-          ]
+          ],
+          "category": "Supply Chain Risk"
+        },
+        {
+          "headline": "FASCSA Exclusion Orders Explained: Two Are Now Public, and Contractors Must Check SAM Every Three Months",
+          "date": "2026-10-30",
+          "url": "reports/2026-10-30-fascsa-orders-explained.html",
+          "dek": "Two orders are public. DHS Exclusion and Removal Order #2026-01 covers DeepSeek (released July 24, 2026). Order #2026-02 covers Acronis (released July 31, 2026). Their Federal Register notices appeared October 20 and October 30, 2026. They reach contractors.",
+          "wordCount": 1736,
+          "readingMinutes": 9,
+          "takeaways": [
+            "Two orders are public. DHS Exclusion and Removal Order #2026-01 covers DeepSeek (released July 24, 2026). Order #2026-02 covers Acronis (released July 31, 2026). Their Federal Register notices appeared October 20 and October 30, 2026.",
+            "They reach contractors. FASCSA prohibitions cover contractor use of covered articles in performance. The Acronis order’s removal duty extends to information systems run by a contractor on an agency’s behalf.",
+            "Check SAM quarterly. FAR 52.204-30 requires contractors to search SAM.gov for “FASCSA order” at least once every three months during performance. A hit triggers a reasonable inquiry and a report within 3 business days.",
+            "New orders need a modification. An order issued after the solicitation applies to the contract only once it is added by amendment or modification. The quarterly check and reporting duty still apply.",
+            "Acronis deadline. Agencies must remove Acronis covered articles within 180 calendar days of the order, which is January 27, 2027, unless they obtain an exception."
+          ],
+          "category": "FASCSA"
+        },
+        {
+          "headline": "EO 14415’s Bill-of-Materials Mandate: What Defense Suppliers Must Map, and Which Dates Are Fixed So Far",
+          "date": "2026-10-23",
+          "url": "reports/2026-10-23-eo-14415-bom-mapping.html",
+          "dek": "Policy due January 16, 2027. EO 14415 gives the Secretary of War 180 days from July 20, 2026, to issue policy requiring primes and subcontractors at any tier to map critical supply chains from raw materials to end products. Implementing regulations follow within 90 days of the policy’s completion.",
+          "wordCount": 1560,
+          "readingMinutes": 8,
+          "takeaways": [
+            "Policy due January 16, 2027. EO 14415 gives the Secretary of War 180 days from July 20, 2026, to issue policy requiring primes and subcontractors at any tier to map critical supply chains from raw materials to end products. Implementing regulations follow within 90 days of the policy’s completion.",
+            "Not yet a contract term. A Federal Register searched on October 23, 2026 found no implementing rule, and no published policy or data item description for the order’s bill of materials was located. The mapping requirements are directions to the Department, not clauses in your contract.",
+            "Three things the rules must require. The order says the regulations must require an indentured BOM back to raw materials, written vetting of suppliers for financial, foreign-ownership and manufacturing risk, and a ban on covered material from unreliable foreign suppliers.",
+            "Short clocks after vetting. The rules must require notice of significant risks within 15 days of completing vetting, and a confidential corrective action plan within 45 days.",
+            "One upstream rule is already dated. From January 1, 2027, DFARS 252.225-7052 bars covered magnets, tantalum and tungsten that were mined, refined, separated, melted or produced in China, Russia, North Korea or Iran."
+          ],
+          "category": "Supply-Chain Mapping"
+        },
+        {
+          "headline": "Section 889 Due Diligence: The Representation, the One-Business-Day Report and What the FAR Overhaul Would Change",
+          "date": "2026-10-12",
+          "url": "reports/2026-10-12-section-889-due-diligence.html",
+          "dek": "Two prohibitions, both in force. Since August 13, 2019, contractors may not provide covered telecom to the Government. Since August 13, 2020, agencies may not contract with an entity that uses covered telecom as a substantial or essential component of any system, whether or not the use is on federal work.",
+          "wordCount": 1531,
+          "readingMinutes": 8,
+          "takeaways": [
+            "Two prohibitions, both in force. Since August 13, 2019, contractors may not provide covered telecom to the Government. Since August 13, 2020, agencies may not contract with an entity that uses covered telecom as a substantial or essential component of any system, whether or not the use is on federal work.",
+            "Five named companies, plus any DoD designates. Huawei and ZTE, and for specified security purposes Hytera, Hikvision and Dahua, including subsidiaries and affiliates. The list also covers entities the Secretary of Defense designates.",
+            "Reasonable inquiry, not audit. The FAR defines the required check as an inquiry into information in your possession, excluding any need for an internal or third-party audit.",
+            "Report within one business day. If you find covered telecom during performance, report within one business day, then follow up within 10 business days. DoD contracts also carry DFARS 252.204-7018, with 3- and 30-business-day clocks.",
+            "Overhaul would simplify. A June 23, 2026 proposed rule would move Section 889 into a consolidated FAR Part 40 clause and set a single 72-hour report. It would also say commercial sales, maintenance, testing, warranty work and employees’ personal devices are not individually “use.”"
+          ],
+          "category": "Section 889"
+        },
+        {
+          "headline": "Buy American Content Rises to 75% in 2029, and the 55% Fallback Ends in 2030: The Schedule to Price In Now",
+          "date": "2026-10-11",
+          "url": "reports/2026-10-11-buy-american-thresholds.html",
+          "dek": "65% now, 75% from 2029. Under FAR 25.101, a manufactured end product is domestic only if its domestic components cost more than 65% of all components for items delivered in 2024 through 2028. The figure rises to 75% for items delivered from calendar year 2029. Delivery year controls.",
+          "wordCount": 1437,
+          "readingMinutes": 8,
+          "takeaways": [
+            "65% now, 75% from 2029. Under FAR 25.101, a manufactured end product is domestic only if its domestic components cost more than 65% of all components for items delivered in 2024 through 2028. The figure rises to 75% for items delivered from calendar year 2029.",
+            "Delivery year controls. A contract spanning the increases must meet each higher threshold in the year of delivery. The exception is when the agency’s senior procurement executive approves locking in the award-date threshold, after consulting OMB’s Made in America Office.",
+            "The fallback ends in 2030. Until then, if no domestic offer is reasonable, a US-made product with more than 55% domestic content can be treated as domestic. FAR says that procedure “will no longer apply as of January 1, 2030.”",
+            "DoD counts allies. The DFARS uses the same 60/65/75% schedule but counts components from qualifying countries. It applies a 50% evaluation factor instead of the FAR’s 20% or 30%.",
+            "No critical items listed yet. FAR 25.105 provides for higher price preferences on critical items and components, but the list is still “[Reserved].”"
+          ],
+          "category": "Buy American"
         }
       ]
     }
