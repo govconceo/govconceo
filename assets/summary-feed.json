@@ -1,0 +1,128 @@
+{
+  "title": "GovCon CEO Baseline Briefing: Five Forces Shaping Federal Contracting",
+  "date": "2026-11-10",
+  "status": "published",
+  "disclaimer": "Not legal advice. Every claim is tied to a primary official source opened for this briefing. Secondary sources are not used as the basis of a fact.",
+  "namingNote": "Official White House, OMB, and Department documents opened for this briefing use “Department of War” or “DOW” in addition to, or in place of, “Department of Defense.” This briefing uses “DoD/DoW.”",
+  "home": "index.html",
+  "sections": [
+    {
+      "id": "cyber-compliance",
+      "number": 1,
+      "label": "Cyber & Compliance",
+      "url": "sections/cyber-compliance.html",
+      "reports": [
+        {
+          "headline": "CMMC Phase 2 Is Suspended: Only Level 1 and Level 2 Self-Assessments May Be Required",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-cmmc-phase-2-suspended.html",
+          "dek": "A July 13, 2026 memo suspends advancement to CMMC Phase 2, which had been scheduled for November 10, 2026. Only Level 1 (Self) or Level 2 (Self) may be required. NIST SP 800-171 Rev 2 duties under DFARS 252.204-7012 remain in effect.",
+          "wordCount": 1271,
+          "readingMinutes": 7,
+          "takeaways": [
+            "On July 13, 2026, the Department suspended advancement to CMMC Phase 2. An official release that day said Phase 2 had been scheduled to take effect on November 10, 2026.",
+            "Implementing memo 26-P-1023 allows a solicitation or contract to require only Level 1 (Self) or Level 2 (Self). It may not designate Level 2 (C3PAO) or Level 3 (DIBCAC) while the review is underway.",
+            "Contracting officers must amend active solicitations and must modify existing contracts before the next option period or the next administrative modification. The memo states that waivers are not available during the review.",
+            "NIST SP 800-171 Revision 2 requirements under DFARS 252.204-7012 remain in effect and are to be enforced through self-assessments and selected government-led assessments.",
+            "The published DFARS text at 204.7504, effective May 7, 2026, still sets later dates for use of clause 252.204-7021, including November 10, 2028 for contractor systems that will process, store, or transmit FCI or CUI (with a COTS exception). The official sources opened for this report do not show that text as superseded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "far-overhaul",
+      "number": 2,
+      "label": "FAR Overhaul",
+      "url": "sections/far-overhaul.html",
+      "reports": [
+        {
+          "headline": "Revolutionary FAR Overhaul Enters Formal Rulemaking, With No Final Rules Yet",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-far-overhaul-formal-rulemaking.html",
+          "dek": "The FAR Council is issuing twelve proposed rules to streamline the FAR. Eight have been published (June 23 and September 18, 2026); both comment periods have closed. No final rules were located. Part 19 is not among the eight published cases.",
+          "wordCount": 1351,
+          "readingMinutes": 7,
+          "takeaways": [
+            "The FAR Council is issuing twelve proposed rules that, collectively, are intended to streamline the FAR in its entirety. That statement appears in the official Federal Register notices, including 91 FR 37550 (June 23, 2026).",
+            "Eight of those twelve cases have been published as proposed rules: four on June 23, 2026, with comments due July 23, 2026, and four on September 18, 2026, with comments due October 19, 2026. Both comment periods have closed. No final Revolutionary FAR Overhaul rules were located in the official sources opened for this report.",
+            "FAR part 19 (small business programs) is not among the eight published cases listed on Acquisition.gov’s official “Requesting Comments” page.",
+            "The September 18 proposed rule in FAR Case 2026-003 would formally recognize “highest technically rated with a fair and reasonable price” as an evaluation approach, would let contracting officers accept late proposals when they determine that doing so is in the Government’s best interest and would not unduly delay award, and would remove the commercial “omnibus” provision and clause at FAR 52.212-3 and 52.212-5.",
+            "FAR Case 2026-011 would delete FAR subpart 27.4, Rights in Data and Copyrights, and replace it with DFARS-derived data-rights coverage, including a new subpart 27.5 for commercial technical data and software.",
+            "The FAR Companion, Version 3.0, was posted on Acquisition.gov on October 30, 2026. It is nonregulatory guidance, not a final FAR rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "budget-pipeline",
+      "number": 3,
+      "label": "Budget & Pipeline",
+      "url": "sections/budget-pipeline.html",
+      "reports": [
+        {
+          "headline": "FY2027 Is Running on a Continuing Resolution Through December 11",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-fy2027-continuing-resolution.html",
+          "dek": "Public Law 119-103 funds FY2027 at a continuing-resolution rate from October 1 through December 11, 2026. The White House requested $1.1 trillion in base discretionary authority for the Department of War plus $350 billion in mandatory reconciliation resources. The House passed the FY2027 NDAA on July 22, 216–212; that vote is not an appropriations law.",
+          "wordCount": 1158,
+          "readingMinutes": 6,
+          "takeaways": [
+            "FY2027 is funded by a continuing resolution. Division A of Public Law 119-103, the Continuing Appropriations and Extensions Act, 2027, approved September 2, 2026, provides continuing appropriations from October 1, 2026, through December 11, 2026.",
+            "OMB Bulletin No. 27-01, dated September 28, 2026, automatically apportions that CR through December 11, 2026, and any extension of that period.",
+            "No regular FY2027 appropriations act was located in the official sources opened for this report. The White House’s Fiscal Year 2027 Topline fact sheet requests $1.5 trillion in total budgetary resources for 2027 defense, including $1.1 trillion in base discretionary budget authority for the Department of War and $350 billion in additional mandatory resources through reconciliation.",
+            "The House passed H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027, on July 22, 2026, by 216–212 (Clerk of the House, Roll Call 278). That vote authorizes; it is not an appropriations law.",
+            "On June 24, 2026, the OMB Director transmitted a request for $87.6 billion in supplemental funding, including $67.1 billion for the Department of War. This report treats that document as a request, not as enacted funding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-tech",
+      "number": 4,
+      "label": "AI & Advanced Tech",
+      "url": "sections/ai-advanced-tech.html",
+      "reports": [
+        {
+          "headline": "GSA’s LLM Clause Sets Data-Use Rules; OMB Rescinds a Software Attestation Mandate and Sets 2030 Cryptography Targets",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-ai-procurement-rules.html",
+          "dek": "GSA’s GSAR 552.239-7001 deviation sets ownership, training, notice, and liability rules for LLM buys that process Government Data. OMB M-26-05 rescinds the governmentwide secure-software attestation mandate. EO 14412 directs a FAR proposed rule, due December 19, 2026, that would require covered contractors to meet NIST FIPS, including post-quantum algorithms, by December 31, 2030.",
+          "wordCount": 1900,
+          "readingMinutes": 10,
+          "takeaways": [
+            "GSA class deviation RGO-2026-01, signed January 15, 2026, includes GSAR 552.239-7001 (GSAR Deviation) (Sept 2026). The clause applies when the Government is procuring an LLM or similar system in which LLM functionality is a material feature and Government Data will be submitted directly to, or produced by, the LLM, with stated exceptions for qualifying internal tools and incidental or ancillary use.",
+            "The official clause text requires notice to the contracting officer within 72 hours after the contractor obtains actual knowledge of a material violation; prohibits using Government Data to train, fine-tune, or otherwise improve an LLM; retains Government ownership of Government Data and custom developments; and caps decommissioning-cost liability at 25 percent of the value of the affected task or delivery order when the Government terminates for cause after written notice and a failure to remediate.",
+            "Official GSA Refresh 34 Q&A restates when 552.239-7001 applies and states that GSA plans to issue Refresh 34 on November 12, 2026. The opened Q&A does not state a 90-day acceptance window.",
+            "OMB Memorandum M-26-05, January 23, 2026, rescinds M-22-18 and M-23-16. Agencies may choose to use the governmentwide Secure Software Development Attestation Form; they are no longer under that prior governmentwide mandate. They may also require a software bill of materials upon request.",
+            "OMB Memorandum M-26-04 directs agencies to include contractual requirements addressing the Unbiased AI Principles in LLM solicitations and orders issued after the memorandum, and to update procurement policies no later than March 11, 2026. The memorandum sunsets two years after issuance unless OMB provides otherwise.",
+            "Executive Order 14412 of June 22, 2026, directs the FAR Council, within 180 days of the order (December 19, 2026), to publish a proposed FAR rule requiring covered contractors to comply by December 31, 2030, with NIST FIPS, including FIPS that incorporate post-quantum cryptography algorithms. OMB Memorandum M-26-15 sets a December 31, 2030 objective for agencies’ prioritized migration of cryptographic systems they own or operate, and requires TLS 1.3 or a successor no later than January 2, 2030. That memorandum does not apply to national security systems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "number": 5,
+      "label": "Supply Chain",
+      "url": "sections/supply-chain.html",
+      "reports": [
+        {
+          "headline": "Defense Supply-Chain Waivers Tighten on January 1, as FASCSA Orders Hit DeepSeek and Acronis",
+          "date": "2026-11-10",
+          "url": "reports/2026-11-10-supply-chain-due-diligence.html",
+          "dek": "EO 14415 directs that most new 10 U.S.C. 4872(c)(1) waivers cease on January 1, 2027, except as the order provides, and requires all-tier supply-chain mapping policy by January 16, 2027. DHS FASCSA orders require immediate exclusion of DeepSeek products and, for Acronis, removal from covered systems by January 27, 2027.",
+          "wordCount": 1914,
+          "readingMinutes": 10,
+          "takeaways": [
+            "Executive Order 14415 of July 20, 2026, directs that, on January 1, 2027, the Secretary of War and the military departments shall cease to issue waivers under 10 U.S.C. 4872(c)(1) for covered materials, except where the prime contractor or subcontractor submits a formal mitigation plan that the Secretary or a designee accepts, as provided in the order.",
+            "Within 180 days of the order — January 16, 2027 — the Secretary must develop policy and implementation guidance requiring all prime contractors and subcontractors at any tier to map and illuminate critical supply chains, from raw materials to end-use products, for Department of War acquisitions that support, implicate, or relate to U.S. national security. Implementing regulations are to be promulgated within 90 days after that policy is completed.",
+            "DHS Exclusion and Removal Order #2026-01, original release date July 24, 2026, requires civilian executive branch agencies (other than national security systems) to exclude DeepSeek products and affiliates from procurements immediately after issuance and to remove covered products immediately or seek an exception. The signed order was published as a Federal Register notice on October 20, 2026 (91 FR 66346).",
+            "DHS Exclusion and Removal Order #2026-02, original release date July 31, 2026, requires immediate exclusion of Acronis covered articles and removal from agency information systems within 180 calendar days of issuance (January 27, 2027), or an exception. The order applies to federal information systems, including systems used or operated by an agency or by a contractor of an agency. The notice was published October 30, 2026 (91 FR 68528).",
+            "FAR Part 25, as published on Acquisition.gov, sets the Buy American domestic-content test at 65 percent for items delivered in calendar years 2024 through 2028 and 75 percent for items delivered starting in calendar year 2029.",
+            "DHS issued a final HSAR rule on Make PPE in America Act restrictions, effective October 19, 2026 (91 FR 59066)."
+          ]
+        }
+      ]
+    }
+  ]
+}

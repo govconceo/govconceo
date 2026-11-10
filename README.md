@@ -1,16 +1,16 @@
-## Hi there 👋
+# GovConCEO
 
-<!--
-**govconceo/govconceo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Executive intelligence briefing for U.S. government contractors, published at [https://govconceo.org](https://govconceo.org).
 
-Here are some ideas to get you started:
+This repository is the static site served by GitHub Pages from the `main` branch root: homepage, five section pages, and five reports dated November 10, 2026. Nothing here is legal advice.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Rebuild CSS
+
+Styles are compiled with the Tailwind CSS v4 CLI into `assets/site.css`. After changing `src/input.css` or adding utility classes in the HTML, from the repository root:
+
+```bash
+npm install
+npx @tailwindcss/cli -i ./src/input.css -o ./assets/site.css --minify
+```
+
+Do not commit `node_modules`.
