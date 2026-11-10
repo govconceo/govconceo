@@ -124,3 +124,23 @@ body {
   color: var(--color-sec-supply-nav);
   box-shadow: inset 0 -2px 0 var(--color-sec-supply);
 }
+
+/* Logo sizing: ~28px mobile, ~36px desktop; footer slightly smaller */
+.site-logo {
+  display: block;
+  height: 1.75rem; /* 28px */
+  width: auto;
+}
+.site-logo-footer {
+  display: block;
+  height: 1.75rem;
+  width: auto;
+}
+@media (min-width: 640px) {
+  .site-logo {
+    height: 2.25rem; /* 36px */
+  }
+  .site-logo-footer {
+    height: 2rem; /* 32px */
+  }
+}
