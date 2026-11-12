@@ -1,6 +1,6 @@
 {
   "title": "GovCon CEO Baseline Briefing: Five Forces Shaping Federal Contracting",
-  "date": "2026-11-10",
+  "date": "2026-11-12",
   "status": "published",
   "disclaimer": "Not legal advice. Every claim is tied to a primary official source opened for this briefing. Secondary sources are not used as the basis of a fact.",
   "namingNote": "Official White House, OMB, and Department documents opened for this briefing use “Department of War” or “DOW” in addition to, or in place of, “Department of Defense.” This briefing uses “DoD/DoW.”",
@@ -233,6 +233,22 @@
       "url": "sections/budget-pipeline.html",
       "reports": [
         {
+          "headline": "HUD Will Reorganize Its Operating Model, Including a Centralized Early-Acquisition Hub at OCPO",
+          "date": "2026-11-12",
+          "url": "reports/2026-11-12-hud-reorganization.html",
+          "dek": "A Nov 10 HUD notice of intent does not propose any office closures or relocation of staff. The Office of the Chief Procurement Officer will establish a centralized hub for early acquisition life-cycle activities. HUD will begin the reorganization approximately 90 days after November 10, 2026.",
+          "wordCount": 1785,
+          "readingMinutes": 9,
+          "takeaways": [
+            "HUD has published a reorganization plan. A November 10, 2026 notice advises that HUD intends to change its Headquarters and Field operational structure. The notice is a statutory cost-benefit publication under section 7(p) of the Department of Housing and Urban Development Act (42 U.S.C. 3535(p)).",
+            "No office closures or staff relocation are proposed. The summary states: “It does not propose any office closures or relocation of staff.” The cost-savings section says the plans include no steps “to relocate or reduce any staff.”",
+            "OCPO will be re-centered on early acquisition. The Office of the Chief Procurement Officer “will restructure its operations to establish a centralized hub for early acquisition life-cycle activities, consolidating the presently dispersed functions.”",
+            "Timing is “approximately 90 days” after publication, not a calendar date named in the notice. “Approximately 90 days following the date of publication of this notice, HUD will begin the reorganization of the Department as identified above.” The notice does not name a February date.",
+            "Not every change is tied to the 90-day clock. The notice says not all described changes “rise to the level legally requiring a 90-day notice period and may be implemented by the Department at its convenience.” Full implementation is “expected to occur within Fiscal Year 2026 for some offices while others will continue working towards full implementation in Fiscal Year 2027.”"
+          ],
+          "category": "Agency Organization"
+        },
+        {
           "headline": "Reading Agency Procurement Forecasts: What They Promise, What They Don't, and How Agencies Publish Them",
           "date": "2026-11-10",
           "url": "reports/2026-11-10-reading-agency-procurement-forecasts.html",
@@ -445,6 +461,53 @@
       "label": "Supply Chain",
       "url": "sections/supply-chain.html",
       "reports": [
+        {
+          "headline": "USTR Extends All 178 Current Section 301 China Product Exclusions",
+          "date": "2026-11-12",
+          "url": "reports/2026-11-12-section-301-china-exclusion-extensions.html",
+          "dek": "A Nov 10 Federal Register notice further extends all 178 current Section 301 exclusions on certain products of China. The annexes cover goods entered on or after 12:01 a.m. eastern time November 10, 2026, and before 11:59 p.m. eastern time January 9, 2027. The determination paragraph also says the exclusions are extended until January 10, 2027.",
+          "wordCount": 1398,
+          "readingMinutes": 7,
+          "takeaways": [
+            "All 178 current exclusions are extended. In a notice published November 10, 2026, USTR announced the Trade Representative’s determination to further extend all 178 current Section 301 exclusions on certain products of China.",
+            "The annex entry window. Annexes A and B make the extension effective for goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern time on November 10, 2026, and before 11:59 p.m. eastern time on January 9, 2027. The headings named are 9903.88.69 and 9903.88.70.",
+            "The notice also uses January 10. The determination paragraph says the Trade Representative determined it is appropriate to further extend all 178 current exclusions until January 10, 2027. The DATES line says the annexes extend the exclusions through 11:59 p.m. eastern time on January 9, 2027. This report quotes both formulations and does not choose between them.",
+            "The prior expiration was November 9, 2026. The notice recites that on November 26, 2025, USTR announced an extension of all 178 current exclusions through November 9, 2026. The annexes delete “November 9, 2026,” from the article descriptions and insert “January 9, 2027.”",
+            "Further extensions remain possible. “The Trade Representative may continue to consider further extensions or additional modifications as appropriate.” U.S. Customs and Border Protection will issue instructions on entry guidance and implementation."
+          ],
+          "category": "Section 301"
+        },
+        {
+          "headline": "DoD Removes WuXi AppTec From the Section 1260H List, Without Prejudice to Relisting",
+          "date": "2026-11-12",
+          "url": "reports/2026-11-12-wuxi-apptec-1260h-delisting.html",
+          "dek": "A Nov 10 Department of Defense notice removes WuXi AppTec Co., Ltd. from the Section 1260H list published June 10, 2026, in compliance with a preliminary injunction, without prejudice to relisting on additional or supplementary grounds. The opened official texts describe listing and delisting duties, not a general clearance to do business.",
+          "wordCount": 1498,
+          "readingMinutes": 8,
+          "takeaways": [
+            "WuXi AppTec is delisted. A Department of Defense notice published November 10, 2026, removes WuXi AppTec Co., Ltd. (WuXi AppTec) from the Section 1260H list of “Chinese military companies” that was published June 10, 2026.",
+            "The stated reason is a court order. The notice says the removal is “in compliance with the order issued by the U.S. District Court of Columbia on August 7, 2026, granting WuXi AppTec’s Motion for Preliminary Injunction.”",
+            "The injunction language is specific. The notice says that order “enjoins the Department from enforcing, implementing, or otherwise giving effect to the Department’s designation of WuXi AppTec as a Chinese military company under Section 1260H.”",
+            "Relisting is not barred by this notice. The action is “without prejudice to relisting the entity on additional or supplementary grounds,” and the summary uses the same “without prejudice” wording for the company.",
+            "This notice does not authorize a general “can now do business” conclusion. The opened official texts describe listing, publication, delisting, and the injunction quoted above. They do not, in the pages opened for this report, set out a procurement clause, a contract prohibition, or a statement that contractors may now buy from or sell to the company."
+          ],
+          "category": "Entity Listing"
+        },
+        {
+          "headline": "USTR Extends the Vietnam Section 301 Investigation; Determinations Due by February 28, 2027",
+          "date": "2026-11-12",
+          "url": "reports/2026-11-12-vietnam-section-301-investigation-extended.html",
+          "dek": "A USTR notice published Nov 10, 2026, and effective Nov 3, 2026, extends the Vietnam intellectual-property Section 301 investigation by three months. Determinations will be made by no later than February 28, 2027. The notice does not impose duties or publish an exclusion list.",
+          "wordCount": 1009,
+          "readingMinutes": 6,
+          "takeaways": [
+            "The Vietnam Section 301 investigation is extended three months. A USTR notice published November 10, 2026, and effective November 3, 2026, at 12:01 a.m. EDT, extends the ongoing investigation of certain acts, policies, and practices of the Government of Vietnam related to intellectual property protection and enforcement.",
+            "Determinations are due by February 28, 2027. “The determinations in the investigation will be made by no later than February 28, 2027.”",
+            "The ground cited is complexity, not a finding on Vietnam’s legislation or enforcement. The Trade Representative determined that “the investigation involves complex or complicated issues that require additional time.” The notice does not, in the text opened, state that Vietnam is making substantial progress on legislation or is undertaking enforcement measures — the other statutory grounds it also recites.",
+            "This notice does not impose duties or publish an exclusion list. It extends the time for findings on actionability and what action, if any, to take. It is a watch item, not an immediate landed-cost change."
+          ],
+          "category": "Section 301"
+        },
         {
           "headline": "Vetting Sub-Tier Suppliers: A Prime Contractor’s Checklist Built From the Clauses That Already Apply",
           "date": "2026-11-02",
