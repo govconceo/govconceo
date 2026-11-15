@@ -496,14 +496,19 @@ main {
   overflow-x: clip;
 }
 
-/* Latest-reports ticker: replaces the former 8px body top border */
+/* Latest-reports ticker: replaces the former 8px body top border.
+   Background variants (keep LATEST white and the crawl #FFFF00):
+     --site-ticker-bg: #1F2937;  dark grey (in use)
+     --site-ticker-bg: #000000;  black
+*/
 .site-ticker {
+  --site-ticker-bg: #1F2937;
   display: flex;
   align-items: stretch;
   width: 100%;
   min-width: 0;
   overflow: hidden;
-  background-color: #1E40AF;
+  background-color: var(--site-ticker-bg);
   color: #FFFF00;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 13px;
