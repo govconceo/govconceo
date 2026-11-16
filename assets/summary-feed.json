@@ -1,6 +1,6 @@
 {
   "title": "GovCon CEO Baseline Briefing: Five Forces Shaping Federal Contracting",
-  "date": "2026-11-12",
+  "date": "2026-11-16",
   "status": "published",
   "disclaimer": "Not legal advice. Every claim is tied to a primary official source opened for this briefing. Secondary sources are not used as the basis of a fact.",
   "namingNote": "Official White House, OMB, and Department documents opened for this briefing use “Department of War” or “DOW” in addition to, or in place of, “Department of Defense.” This briefing uses “DoD/DoW.”",
@@ -122,6 +122,21 @@
       "label": "FAR Overhaul",
       "url": "sections/far-overhaul.html",
       "reports": [
+        {
+          "headline": "GSA Issues MAS Refresh 34, Removing the 20-Year Contract Limit and Adding an LLM Safeguarding Clause",
+          "date": "2026-11-16",
+          "url": "reports/2026-11-16-gsa-mas-refresh-34.html",
+          "dek": "On November 12, 2026, GSA issued MAS Refresh #34 to solicitation 47QSMD20R0001. The issued SF30 removes the 20-year limit on schedule contract duration, adds an optional FSS domestic-end-product certificate and LLM safeguarding clause 552.239-7001, and requires existing contractors to accept the mass modification no later than 90 days after it is issued.",
+          "wordCount": 2046,
+          "readingMinutes": 10,
+          "takeaways": [
+            "GSA issued MAS Refresh #34 to solicitation 47QSMD20R0001 on November 12, 2026.",
+            "Existing contractors must accept the mass modification no later than 90 days after it has been issued.",
+            "New task and delivery orders, including BPA calls, issued after the modification’s effective date take the new terms; earlier orders keep the terms in effect at award.",
+            "The 20-year limit on schedule contract duration is removed (552.238-116).",
+            "The refresh adds optional FSS domestic-end-product certificate 552.238-130 and LLM safeguarding clause 552.239-7001, and phases out the voluntary HACS Incident Response subgroup at the end of Fiscal Year 2027."
+          ]
+        },
         {
           "headline": "RFO Part-by-Part Tracker: 53 FAR Parts, 8 Proposed Rules, 15 Parts Still Waiting",
           "date": "2026-11-07",

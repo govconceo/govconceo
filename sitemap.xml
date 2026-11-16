@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://govconceo.org/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://govconceo.org/about.html</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://govconceo.org/feed.xml</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://govconceo.org/reports/2026-10-11-buy-american-thresholds.html</loc>
@@ -147,6 +147,10 @@
   <url>
     <loc>https://govconceo.org/reports/2026-11-12-wuxi-apptec-1260h-delisting.html</loc>
     <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://govconceo.org/reports/2026-11-16-gsa-mas-refresh-34.html</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://govconceo.org/sections/cyber-compliance.html</loc>
